@@ -8,3 +8,13 @@
   background-repeat: no-repeat;
   height: 500px;
 }
+.performUmrah {
+  background-image: url("../src/Images/perfromUmrah.jpg");
+  width: 350px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}

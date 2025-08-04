@@ -32,7 +32,6 @@ function App() {
         <Route path="/baghdad" element={<Baghdad />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-
     </Router>
   );
 }

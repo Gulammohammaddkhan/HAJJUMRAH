@@ -1,24 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Button({ text, bgColor, textColor, href, rounded }) {
-  return (
-    <>
-      {href ? (
-        <Link
-          to={href}
-          className={`text-[${textColor}] bg-[${bgColor}] py-1 px-3 ${rounded} font-serif  hover:scale-105`}
-        >
-          {text}
-        </Link>
-      ) : (
-        <button
-          className={`bg-[${bgColor}] text-[${textColor}] font-serif font-semibold cursor-pointer py-1 px-3 rounded-sm hover:scale-105`}
-        >
-          {text}
-        </button>
-      )}
-    </>
+  const styles = {
+    backgroundColor: bgColor,
+    color: textColor,
+  };
+
+  const commonClass = `${rounded} py-1 px-3 font-serif hover:scale-105 cursor-pointer`;
+
+  return href ? (
+    <Link to={href} style={styles} className={commonClass}>
+      {text}
+    </Link>
+  ) : (
+    <button style={styles} className={`${commonClass} font-semibold`}>
+      {text}
+    </button>
   );
 }
 

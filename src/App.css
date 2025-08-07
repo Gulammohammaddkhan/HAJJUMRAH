@@ -1,3 +1,9 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+.custom-heading {
+  font-family: "Mozilla Headline", sans-serif;
+}
 .hero {
   background-image: url("./Images/HeaderBg3.jpg");
   width: 100%;
@@ -9,12 +15,7 @@
   height: 500px;
 }
 .performUmrah {
-  background-image: url("../src/Images/perfromUmrah.jpg");
   width: 350px;
   height: 200px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
   cursor: pointer;
 }

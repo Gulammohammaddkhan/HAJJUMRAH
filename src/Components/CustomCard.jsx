@@ -3,7 +3,7 @@ import Button from "./Button";
 
 function CustomCard({ data }) {
   return (
-    <div className="min-w-[350px] max-w-[370px] h-[650px] flex-shrink-0 font-serif text-[#e8d8bb] rounded-md cursor-pointer border border-[#ddb66a] overflow-hidden bg-[#1a1a1a]">
+    <div className="min-w-[350px] max-w-[370px] h-[650px] flex-shrink-0  text-[#e8d8bb] rounded-md cursor-pointer border border-[#ddb66a] overflow-hidden bg-[#1a1a1a]">
       <img
         src={data?.img}
         alt={data?.title}

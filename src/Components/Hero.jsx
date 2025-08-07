@@ -23,8 +23,8 @@ function Hero() {
       <Wrapper>
         <TypewriterEffectSmooth words={words} />
       </Wrapper>
-      <h2 className=" animate__animated animate__pulse animate__infinite items-center  text-3xl font-semibold font-serif text-[#ddb66a]">
-        Welcome to HIJRAT Tours
+      <h2 className=" animate__animated animate__pulse animate__infinite items-center  text-3xl font-semibold  text-[#ddb66a]">
+        Welcome to Hijrat Tours
       </h2>
     </div>
   );

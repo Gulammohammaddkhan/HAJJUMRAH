@@ -1,7 +1,7 @@
 import React from "react";
 
 function HajjPackages() {
-  return <div>HajjPackages</div>;
+  return <div id="hajjpackages">HajjPackages</div>;
 }
 
 export default HajjPackages;

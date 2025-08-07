@@ -1,19 +1,23 @@
 import React from "react";
 
-function Button({ text, bgColor, textColor, href, rounded }) {
+function Button({ text, bgColor, textColor, href, rounded, onClick }) {
   const styles = {
     backgroundColor: bgColor,
     color: textColor,
   };
 
-  const commonClass = `${rounded} py-1 px-3 font-serif hover:scale-105 cursor-pointer`;
+  const commonClass = `${rounded} py-1 px-3  hover:scale-105 cursor-pointer`;
 
   return href ? (
     <Link to={href} style={styles} className={commonClass}>
       {text}
     </Link>
   ) : (
-    <button style={styles} className={`${commonClass} font-semibold`}>
+    <button
+      onClick={onClick && onClick}
+      style={styles}
+      className={`${commonClass} font-semibold`}
+    >
       {text}
     </button>
   );

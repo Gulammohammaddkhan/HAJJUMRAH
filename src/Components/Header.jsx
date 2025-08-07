@@ -9,7 +9,7 @@ function Header() {
 
   return (
     <>
-      <div className="fixed w-full bg-black z-50 text-[#ddb66a] font-serif flex items-center justify-between px-4 py-2">
+      <div className="fixed w-full bg-black z-50 text-[#ddb66a]  flex items-center justify-between px-4 py-2">
         <div className="flex items-center gap-2 transform transition duration-300 ease-in-out hover:scale-110 cursor-pointer">
           <Logo />
           <div className="tracking-tight leading-none">

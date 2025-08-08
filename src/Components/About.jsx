@@ -19,37 +19,41 @@ function About({ aboutData }) {
           {expand
             ? aboutData.map((item, id) => {
                 return (
-                  <div className=" text-[#e8d8bb]" key={id}>
-                    <h2 className="text-[#ddb66a] flex justify-center">
+                  <div className=" text-[#e8d8bb] " key={id}>
+                    <h2 className="text-[#ddb66a]  text-3xl py-8 font-semibold flex justify-center">
                       {item.title}
                     </h2>
-                    <p>{item.disc}</p>
-                    <p>{item.disc2}</p>
-                    <p>{item.disc3}</p>
-                    <p>{item.disc4}</p>
-                    <p>{item.disc5}</p>
-                    <p>{item.disc6}</p>
-                    <p>{item.disc7}</p>
-                    <p>{item.disc8}</p>
-                    <p>{item.disc9}</p>
+                    <div className="text-lg">
+                      <p>{item.disc}</p>
+                      <p>{item.disc2}</p>
+                      <p>{item.disc3}</p>
+                      <p>{item.disc4}</p>
+                      <p>{item.disc5}</p>
+                      <p>{item.disc6}</p>
+                      <p>{item.disc7}</p>
+                      <p>{item.disc8}</p>
+                      <p>{item.disc9}</p>
+                    </div>
                   </div>
                 );
               })
             : aboutData.slice(0, 1).map((item, id) => {
                 return (
                   <div className=" text-[#e8d8bb]" key={id}>
-                    <h2 className="text-[#ddb66a] flex justify-center">
+                    <h2 className="text-[#ddb66a] text-3xl pb-6 font-semibold flex justify-center">
                       {item.title}
                     </h2>
-                    <p>{item.disc}</p>
-                    <p>{item.disc2}</p>
-                    <p>{item.disc3}</p>
-                    <p>{item.disc4}</p>
-                    <p>{item.disc5}</p>
-                    <p>{item.disc6}</p>
-                    <p>{item.disc7}</p>
-                    <p>{item.disc8}</p>
-                    <p>{item.disc9}</p>
+                    <div className="text-lg">
+                      <p>{item.disc}</p>
+                      <p>{item.disc2}</p>
+                      <p>{item.disc3}</p>
+                      <p>{item.disc4}</p>
+                      <p>{item.disc5}</p>
+                      <p>{item.disc6}</p>
+                      <p>{item.disc7}</p>
+                      <p>{item.disc8}</p>
+                      <p>{item.disc9}</p>
+                    </div>
                   </div>
                 );
               })}

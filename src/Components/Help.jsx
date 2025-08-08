@@ -1,14 +1,55 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import madinaimg from "../Images/madinaImg.jpg";
+import tawaf from "../Images/tawaf.jpg";
+import {
+  IoIosArrowDropleftCircle,
+  IoIosArrowDroprightCircle,
+} from "react-icons/io";
 
 function Help() {
+  const helpImg = [tawaf, madinaimg];
+  const [current, setCurrent] = useState(0);
+  const nextSlide = () => {
+    setCurrent((prev) => (prev + 1) % helpImg.length);
+  };
+  function prevSlide() {
+    setCurrent((prev) => (prev - 1 + helpImg.length) % helpImg.length);
+  }
+  // function carosel() {
+  //   const nextSlide = () => {
+  //     setCurrent((prev) => (prev + 1) % helpImg.length);
+  //   };
+  //   const prevSlide = () => {
+  //     setCurrent((prev) => (prev - 1 + helpImg.length) % helpImg.length);
+  //   };
+  //   function prevSlide() {
+  //     setCurrent((prev) => (prev - 1 + helpImg.length) % helpImg.length);
+  //   }
+  // }
+
   return (
     <div className="text-[#ddb66a] flex gap-6 mx-10 py-16">
       <div className=" w-[70%] flex flex-col justify-center items-center gap-4 ">
         <h2 className="text-3xl font-semibold ">Media About Us</h2>
-        <div>
-          <img src={madinaimg} alt="img" className="" />
+        <div className="relative">
+          <img src={helpImg[current]} alt="img" className="relative" />
+          <div className="absolute top-[40%] left-[-17px] ">
+            <IoIosArrowDropleftCircle
+              size={36}
+              color="#ddb66a"
+              className="cursor-pointer"
+              onClick={prevSlide}
+            />
+          </div>
+          <div className="absolute top-[40%] right-[-17px] ">
+            <IoIosArrowDroprightCircle
+              size={36}
+              color="#ddb66a"
+              className="cursor-pointer"
+              onClick={nextSlide}
+            />
+          </div>
         </div>
         <p className="text-xl text-[#e8d8bb]">
           Legacy of Trust, Journey of Faith, "Your Better Pilgrimage Begins with

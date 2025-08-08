@@ -1,3 +1,4 @@
+import React from "react";
 import Makkah1 from "../src/Images/Makkah1.avif";
 import Makkah2 from "../src/Images/Makkah2.avif";
 import Makkah3 from "../src/Images/Makkah3.avif";
@@ -13,7 +14,21 @@ import perfromUmrah from "../src/Images/perfromUmrah.jpg";
 import perfromhajj from "../src/Images/perfromhajj.jpg";
 import karbala from "../src/Images/karbala.jpg";
 import { Link } from "react-router-dom";
-import React from "react";
+import partner1 from "../src/Images/partner1.webp";
+import partner2 from "../src/Images/partner2.webp";
+import partner3 from "../src/Images/partner3.webp";
+import partner4 from "../src/Images/partner4.webp";
+import partner5 from "../src/Images/partner5.webp";
+import partner6 from "../src/Images/partner6.webp";
+import partner7 from "../src/Images/partner7.webp";
+import fb from "../src/Images/facebook.webp";
+import whatapp from "../src/Images/whatapp.webp";
+import instagram from "../src/Images/instagram.webp";
+import twitter from "../src/Images/twitter.webp";
+import utube from "../src/Images/utube.webp";
+import linkedIn from "../src/Images/linkedIn.webp";
+import pinInterest from "../src/Images/pinInterest.webp";
+import google from "../src/Images/google.webp";
 
 export const navLinks = [
   {
@@ -287,23 +302,26 @@ export const aboutData = [
           best Hajj and Umrah travel company in Mumbai
         </Link>
         . With over 30 years of service experience through our{" "}
-        <Link to={"/hajjpackages"} target="_blank">
+        <Link className="text-[#ddb66a]" to={"/hajjpackages"} target="_blank">
           hajj
         </Link>{" "}
-        and <Link to={"/umrahpackages"}>Umrah packages</Link>, for us, every
-        pilgrim’s journey is our way of serving the guest of Allah by helping
-        them fulfil their pilgrimage to Makka and Madinah.
+        and{" "}
+        <Link className="text-[#ddb66a]" to={"/umrahpackages"}>
+          Umrah packages
+        </Link>
+        , for us, every pilgrim’s journey is our way of serving the guest of
+        Allah by helping them fulfil their pilgrimage to Makka and Madinah.
       </>
     ),
     disc2: (
       <>
         Our travel agency guides the pilgrims throughout the journey from the
         time when he/she starts their Hajj, Umrah or Ziyarat journey with the
-        motto of <strong>“Better Pilgrimage”</strong> experience for all our
-        pilgrims. As the approved Umrah travel agents in India, we have been
-        setting up benchmarks in trust and commitment. Apart from the tour
-        packages, we offer many additional services like guidance in performing
-        the self-purification of Hajj and Umrah.
+        motto of <strong className="text-[#ddb66a]">“Better Pilgrimage”</strong>{" "}
+        experience for all our pilgrims. As the approved Umrah travel agents in
+        India, we have been setting up benchmarks in trust and commitment. Apart
+        from the tour packages, we offer many additional services like guidance
+        in performing the self-purification of Hajj and Umrah.
       </>
     ),
   },
@@ -312,19 +330,25 @@ export const aboutData = [
     title: "Our Hajj Umrah Ziyarat Services",
     disc: (
       <>
-        <strong>Hajj package:</strong> Serving for over 35 years, Bakhla Tours
-        and Travels offers complete Hajj travel packages to the pilgrim based on
-        different criteria and budgets. Through our thoughtfully designed{" "}
-        <a href="/hajjpackages">Hajj packages</a>, we guide our pilgrims towards
-        the sacred journey of Makkah and Madinah. We also provide customized
-        Hajj packages and Land Packages for Hajj on demand.
+        <strong className="text-[#ddb66a]">Hajj package:</strong> Serving for
+        over 35 years, Bakhla Tours and Travels offers complete Hajj travel
+        packages to the pilgrim based on different criteria and budgets. Through
+        our thoughtfully designed{" "}
+        <a href="/hajjpackages" className="text-[#ddb66a]">
+          Hajj packages
+        </a>
+        , we guide our pilgrims towards the sacred journey of Makkah and
+        Madinah. We also provide customized Hajj packages and Land Packages for
+        Hajj on demand.
       </>
     ),
     disc2: (
       <>
-        <strong>Umrah packages:</strong> Umrah is the most demanded sacred tour
-        at our <strong>Umrah Travel Agency</strong>. We provide the{" "}
-        <Link to={"/umrahpackages"}>
+        <strong className="text-[#ddb66a]">Umrah packages:</strong> Umrah is the
+        most demanded sacred tour at our{" "}
+        <strong className="text-[#ddb66a]">Umrah Travel Agency</strong>. We
+        provide the{" "}
+        <Link className="text-[#ddb66a]" to={"/umrahpackages"}>
           <strong>best Umrah Packages from all across India</strong>
         </Link>
         . Being an approved Umrah travel agent in India, we also provide Saudi
@@ -334,12 +358,15 @@ export const aboutData = [
     ),
     disc3: (
       <>
-        <strong>Ziyarat tour package:</strong> We at Bakhla tours release
-        Baghdad Shareef tours in the holy month of Dhul-Qadah. This tour is
-        conducted once a year in the month of Dhul-Qadah.
-        <Link to={"/baghdad"}>
+        <strong className="text-[#ddb66a]">Ziyarat tour package:</strong> We at
+        Bakhla tours release Baghdad Shareef tours in the holy month of
+        Dhul-Qadah. This tour is conducted once a year in the month of
+        Dhul-Qadah.
+        <Link className="text-[#ddb66a]" to={"/baghdad"}>
           {" "}
-          <strong>Baghdad Ziyarat Tour Package</strong>
+          <strong className="text-[#ddb66a]">
+            Baghdad Ziyarat Tour Package
+          </strong>
         </Link>{" "}
         includes Ziyarats of different Islamic destinations which are situated
         in the Gulf countries like Iran and Iraq. The best accommodations are
@@ -348,8 +375,9 @@ export const aboutData = [
     ),
     disc4: (
       <>
-        <strong>Hotels:</strong> We, at <strong>Hijrat Tours & Travels</strong>,
-        are the official Hajj Umrah travel agents that deal in bulk bookings of
+        <strong className="text-[#ddb66a]">Hotels:</strong> We, at{" "}
+        <strong className="text-[#ddb66a]">Hijrat Tours & Travels</strong>, are
+        the official Hajj Umrah travel agents that deal in bulk bookings of
         hotels. We provide comfortable and convenient hotel accommodation in
         both holy cities, Makkah and Madinah. Our hotel rates are competitive as
         compared to any other online portals. Our hotels are in close proximity
@@ -360,28 +388,30 @@ export const aboutData = [
     ),
     disc5: (
       <>
-        <strong>Food:</strong> While pilgrims are busy performing Hajj and
-        Umrah, we, along with our professional team of Indian chefs, prepare and
-        provide the best quality delicious food. With a wide variety in
-        starters, main course, desserts and snacks we provide fresh Indian food
-        to our pilgrims three times a day.
+        <strong className="text-[#ddb66a]">Food:</strong> While pilgrims are
+        busy performing Hajj and Umrah, we, along with our professional team of
+        Indian chefs, prepare and provide the best quality delicious food. With
+        a wide variety in starters, main course, desserts and snacks we provide
+        fresh Indian food to our pilgrims three times a day.
       </>
     ),
     disc6: (
       <>
-        <strong>Visa:</strong> We have a very professionally trained visa
-        department, which consists of staff members who handle all the Saudi
-        Arabia Hajj and Umrah visas for our Hajjis. Making sure our Hajjis do
-        not have to worry at all making us the best in the industry of
+        <strong className="text-[#ddb66a]">Visa:</strong> We have a very
+        professionally trained visa department, which consists of staff members
+        who handle all the Saudi Arabia Hajj and Umrah visas for our Hajjis.
+        Making sure our Hajjis do not have to worry at all making us the best in
+        the industry of
       </>
     ),
     disc7: (
       <>
-        <strong>Tickets:</strong> As far as ticketing is concerned, we at Bakhla
-        Tours & Travels Pvt. Ltd. Hajj and Umrah travel agency purchase blocks
-        of different airlines much before the flying dates. This is why we can
-        offer tickets at the best possible rates. Through this, we offer the
-        best deals and rates on Hajj and Umrah packages to our customers.
+        <strong className="text-[#ddb66a]">Tickets:</strong> As far as ticketing
+        is concerned, we at Bakhla Tours & Travels Pvt. Ltd. Hajj and Umrah
+        travel agency purchase blocks of different airlines much before the
+        flying dates. This is why we can offer tickets at the best possible
+        rates. Through this, we offer the best deals and rates on Hajj and Umrah
+        packages to our customers.
       </>
     ),
   },
@@ -391,25 +421,30 @@ export const aboutData = [
     disc: (
       <>
         Many travel agencies offer Hajj and{" "}
-        <a href="/umrahpackages">Umrah travel packages in India</a>. But what
-        makes us different from others is our commitment to serving you with the{" "}
-        <strong>best Hajj and Umrah services</strong>.
+        <a className="text-[#ddb66a]" href="/umrahpackages">
+          Umrah travel packages in India
+        </a>
+        . But what makes us different from others is our commitment to serving
+        you with the{" "}
+        <strong className="text-[#ddb66a]">best Hajj and Umrah services</strong>
+        .
       </>
     ),
     disc2: (
       <>
-        We are a genuine travel agency of <strong>Hajj and Umrah</strong>{" "}
-        working and excelling in the industry for more than 3 decades, consider
-        it our responsibility to guide you through not only decision-making but
-        also in finding the best deals in flights, hotels, local transportation,
-        etc which in turn makes our packages perfect for our clients.
+        We are a genuine travel agency of{" "}
+        <strong className="text-[#ddb66a]">Hajj and Umrah</strong> working and
+        excelling in the industry for more than 3 decades, consider it our
+        responsibility to guide you through not only decision-making but also in
+        finding the best deals in flights, hotels, local transportation, etc
+        which in turn makes our packages perfect for our clients.
       </>
     ),
     disc3: (
       <>
-        At <strong>Hijrat Tours & Travels</strong>, we have special Travel
-        Experts to help you select and finalise a package according to your
-        budget.
+        At <strong className="text-[#ddb66a]">Hijrat Tours & Travels</strong>,
+        we have special Travel Experts to help you select and finalise a package
+        according to your budget.
       </>
     ),
     disc4: (
@@ -429,9 +464,9 @@ export const aboutData = [
         Hajj, Umrah or Ziyarat tours are performed once in a lifetime for most
         people and if you are planning on completing the 5<sup>th</sup> pillar
         of Islam that is Hajj Tour you will have to have trust a{" "}
-        <strong>Hajj & Umrah package tour</strong> provider company who has the
-        best experience in this industry and are approved by Ministry of
-        Minority Affairs.
+        <strong className="text-[#ddb66a]">Hajj & Umrah package tour</strong>{" "}
+        provider company who has the best experience in this industry and are
+        approved by Ministry of Minority Affairs.
       </>
     ),
     disc2: (
@@ -444,14 +479,16 @@ export const aboutData = [
     ),
     disc3: (
       <>
-        Under the guidance of <strong>Hijrat Tours & Travels</strong> family and
-        staff members you could find Hajj or Umrah pilgrimage very easy. Making
-        a better and easy pilgrimage is our motto.
+        Under the guidance of{" "}
+        <strong className="text-[#ddb66a]">Hijrat Tours & Travels</strong>{" "}
+        family and staff members you could find Hajj or Umrah pilgrimage very
+        easy. Making a better and easy pilgrimage is our motto.
       </>
     ),
     disc4: (
       <>
-        Our boss and the C.E.O. of <strong>Hijrat Tours & Travels</strong>{" "}
+        Our boss and the C.E.O. of{" "}
+        <strong className="text-[#ddb66a]">Hijrat Tours & Travels</strong>{" "}
         himself has traveled and completed his 30<sup>th</sup> Hajj journey in
         the year 2018. Long things explained in short, more experience leads to
         more contacts, and more contacts lead to easy pilgrimage travel.
@@ -464,11 +501,11 @@ export const aboutData = [
     disc: (
       <>
         As long as the trust is concerned,{" "}
-        <strong>Hijrat Tours & Travels</strong> has been proving this point
-        since its inception. In today’s modern world, building and maintaining
-        the pilgrim’s or clients’ trust is our first priority and many travel
-        agencies fail. A very fine example of trust is of recent times of the
-        pandemic COVID-19.
+        <strong className="text-[#ddb66a]">Hijrat Tours & Travels</strong> has
+        been proving this point since its inception. In today’s modern world,
+        building and maintaining the pilgrim’s or clients’ trust is our first
+        priority and many travel agencies fail. A very fine example of trust is
+        of recent times of the pandemic COVID-19.
       </>
     ),
     disc2: (
@@ -510,9 +547,9 @@ export const aboutData = [
     ),
     disc3: (
       <>
-        <strong>Hijrat Tours & Travels</strong> commits to services that they
-        can provide during the pilgrimage journey. We provide all types of
-        packages and services for all types of budgets.
+        <strong className="text-[#ddb66a]">Hijrat Tours & Travels</strong>{" "}
+        commits to services that they can provide during the pilgrimage journey.
+        We provide all types of packages and services for all types of budgets.
       </>
     ),
     disc4: (
@@ -532,7 +569,10 @@ export const aboutData = [
         Hajj and Umrah are the most important journeys of a Muslim’s life hence,
         they need to have the best service provider who can provide them with
         proper guidance throughout the tour. You can browse our variety of{" "}
-        <Link to={"/hajjpackages"}>Hajj packages</Link>.
+        <Link className="text-[#ddb66a]" to={"/hajjpackages"}>
+          Hajj packages
+        </Link>
+        .
       </>
     ),
   },
@@ -641,5 +681,56 @@ export const aboutData = [
         Ahmedabad, Delhi, Nagpur, Hyderabad, and Lucknow.
       </>
     ),
+  },
+];
+
+export const partnersData = [
+  {
+    imgSrc: partner1,
+  },
+  {
+    imgSrc: partner2,
+  },
+  {
+    imgSrc: partner3,
+  },
+  {
+    imgSrc: partner4,
+  },
+  {
+    imgSrc: partner5,
+  },
+  {
+    imgSrc: partner6,
+  },
+  {
+    imgSrc: partner7,
+  },
+];
+
+export const footerData = [
+  {
+    imgSrc: whatapp,
+  },
+  {
+    imgSrc: fb,
+  },
+  {
+    imgSrc: instagram,
+  },
+  {
+    imgSrc: twitter,
+  },
+  {
+    imgSrc: utube,
+  },
+  {
+    imgSrc: linkedIn,
+  },
+  {
+    imgSrc: pinInterest,
+  },
+  {
+    imgSrc: google,
   },
 ];

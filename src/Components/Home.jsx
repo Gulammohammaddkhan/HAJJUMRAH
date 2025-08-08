@@ -3,11 +3,18 @@ import Hero from "./Hero";
 import Button from "./Button";
 import Wrapper from "./Wrapper";
 import Carousel from "./Carousel";
-import { aboutData, packageCategories } from "../../data/Data";
+import {
+  aboutData,
+  packageCategories,
+  partnersData,
+  footerData,
+} from "../../data/Data";
 import Media from "./Media";
 import About from "./About";
 import CustomCard from "./CustomCard";
 import Help from "./Help";
+import Partners from "./Partners";
+import Footer from "./Footer";
 
 function Home() {
   const updatedData = packageCategories.map((obj, index) => {
@@ -51,7 +58,9 @@ function Home() {
         <Media />
         <About aboutData={aboutData} />
         <Help />
+        <Partners partnersData={partnersData} />
       </Wrapper>
+      <Footer footerData={footerData} />
     </div>
   );
 }

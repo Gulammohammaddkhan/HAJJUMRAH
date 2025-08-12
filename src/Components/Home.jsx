@@ -31,7 +31,7 @@ function Home() {
 
         {updatedData?.map((obj) => {
           return (
-            <div key={obj.id}>
+            <div className="" key={obj.id}>
               <h2 className="text-[#ddb66a] text-3xl pt-20  font-semibold custom-heading flex justify-center pb-10 animate__animated animate__pulse animate__infinite">
                 {obj.type}
               </h2>

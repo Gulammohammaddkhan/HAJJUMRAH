@@ -6,6 +6,7 @@ import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
 } from "react-icons/io";
+import { div } from "motion/react-client";
 
 function Help() {
   const helpImg = [tawaf, madinaimg];
@@ -27,9 +28,21 @@ function Help() {
   //     setCurrent((prev) => (prev - 1 + helpImg.length) % helpImg.length);
   //   }
   // }
+  const [name, setName] = useState("");
+  const [number, setNumber] = useState("");
+  const [mail, setMail] = useState("");
+  const [dropDown, setDropDown] = useState("");
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    setName("");
+    setNumber("");
+    setMail("");
+    setDropDown("");
+  }
 
   return (
-    <div className="text-[#ddb66a] flex gap-6 mx-10 py-16">
+    <div className="text-[#ddb66a] flex  gap-6 mx-10 py-16">
       <div className=" w-[70%] flex flex-col justify-center items-center gap-4 ">
         <h2 className="text-3xl font-semibold ">Media About Us</h2>
         <div className="relative">
@@ -65,16 +78,40 @@ function Help() {
           the way.{" "}
         </p>
         <div className="px-20 w-full py-8 bg-[#313131] text-[#e8d8bb] ">
-          <form action="post" className="flex flex-col w-full  gap-4">
-            <input type="text" placeholder="name" className="border-2 " />
+          <form
+            onSubmit={handleSubmit}
+            action="post"
+            className="flex flex-col w-full  gap-4"
+          >
+            <input
+              type="text"
+              placeholder="name"
+              className="border-2 overflow-hidden outline-none"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+            />
             <input
               type="number"
               placeholder="Mobile number*"
-              className="border-2 "
+              className="border-2 overflow-hidden outline-none "
+              value={number}
+              onChange={(e) => setNumber(e.target.value)}
             />
-            <input type="mail" placeholder="Your Email" className="border-2 " />
+            <input
+              type="mail"
+              placeholder="Your Email"
+              className="border-2 overflow-hidden outline-none "
+              value={mail}
+              onChange={(e) => setMail(e.target.value)}
+            />
             <div className="w-full">
-              <select name="packages" id="" className="w-full border-2 ">
+              <select
+                name="packages"
+                id=""
+                className="w-full border-2 "
+                value={dropDown}
+                onChange={(e) => setDropDown(e.target.value)}
+              >
                 <option value="hajj" className="bg-[#313131]">
                   Hajj
                 </option>

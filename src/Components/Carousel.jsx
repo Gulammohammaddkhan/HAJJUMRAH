@@ -69,7 +69,7 @@ const Carousel = ({ data }) => {
   return (
     <div className="relative">
       <div className="w-full overflow-x-scroll no-scrollbar">
-        <div className="flex gap-x-4 px-4">
+        <div className="flex gap-x-4 px-4 justify-around">
           {indexes?.map((item, index) => (
             <CustomCard data={data[item]} key={index} />
           ))}

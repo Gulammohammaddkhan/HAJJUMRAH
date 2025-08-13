@@ -3,11 +3,15 @@ import React from "react";
 
 function Partners({ partnersData }) {
   return (
-    <div className="flex justify-center items-center gap-10 py-10 filter grayscale border-t-1 border-t-[#303030] ">
-      {partnersData.map((item, id) => {
+    <div className="flex flex-wrap justify-around items-center gap-10 py-10 filter grayscale border-t-1 border-t-[#303030] ">
+      {partnersData.map((item, index) => {
         return (
-          <div className="">
-            <img src={item.imgSrc} alt=" partners-img" className="" />
+          <div className="partner" key={index}>
+            <img
+              src={item.imgSrc}
+              alt=" partners-img"
+              className="min-w-[50px] max-w-[80px] min-h-[72px]"
+            />
           </div>
         );
       })}

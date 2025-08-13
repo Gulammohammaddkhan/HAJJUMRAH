@@ -1,7 +1,6 @@
 import React from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import "./App.css";
 import Home from "./Components/Home";
 import Header from "./Components/Header";
 import HajjPackages from "./Components/HajjPackages";
@@ -18,6 +17,11 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Component from "./Components/CustomCard";
+import Partners from "./Components/Partners";
+import { partnersData } from "../data/Data";
+import Footer from "./Components/Footer";
+import { footerData } from "../data/Data";
+import Help from "./Components/Help";
 
 function App() {
   return (
@@ -32,6 +36,9 @@ function App() {
         <Route path="/baghdad" element={<Baghdad />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Help />
+      <Partners partnersData={partnersData} />
+      <Footer footerData={footerData} />
     </Router>
   );
 }

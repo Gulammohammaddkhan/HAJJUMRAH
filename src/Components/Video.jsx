@@ -15,6 +15,7 @@ function Video({ videoData }) {
             background: `url("${item.imgSrc}")`,
             backgroundPosition: "center",
             backgroundSize: "contain",
+            backgroundRepeat: "no-repeat",
           }}
         >
           <Link

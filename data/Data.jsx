@@ -29,6 +29,19 @@ import utube from "../src/Images/utube.webp";
 import linkedIn from "../src/Images/linkedIn.webp";
 import pinInterest from "../src/Images/pinInterest.webp";
 import google from "../src/Images/google.webp";
+import hajjpackagesImg1 from "../src/Images/hajjpackagesImg1.jpg";
+import hajjpackagesImg2 from "../src/Images/hajjpackagesImg2.jpg";
+import hajjpackagesImg3 from "../src/Images/hajjpackagesImg3.jpg";
+import hajjpackagesImg4 from "../src/Images/hajjpackagesImg4.jpg";
+import hajjpackagesImg5 from "../src/Images/hajjpackagesImg5.jpg";
+import hajjpackagesImg6 from "../src/Images/hajjpackagesImg6.jpg";
+import hajjpackagesImg7 from "../src/Images/hajjpackagesImg7.jpg";
+import hajjpackagesImg8 from "../src/Images/hajjpackagesImg8.jpg";
+import hajjpackagesImg9 from "../src/Images/hajjpackagesImg9.jpg";
+import hajjpackagesImg10 from "../src/Images/hajjpackagesImg10.jpg";
+import hajjpackagesImg11 from "../src/Images/hajjpackagesImg11.jpg";
+import hajjpackagesImg12 from "../src/Images/hajjpackagesImg12.jpg";
+import hajjpackagesImg13 from "../src/Images/hajjpackagesImg13.jpg";
 
 export const navLinks = [
   {
@@ -732,5 +745,222 @@ export const footerData = [
   },
   {
     imgSrc: google,
+  },
+];
+
+export const hajjPackagesPageData = [
+  {
+    img: hajjpackagesImg1,
+    title: "Hajj 2026 GOLD PACKAGE NON-SHIFTING SHORT TOUR (TOUR NO HT-01)",
+    hotels: [
+      { moullim: "Moullim No. :", category: "Category-D Plus" },
+      { hotelLocation: "Makkah :", hotelName: "  Snood Ajyad" },
+      { hotelLocation: "Madina :", hotelName: " Ritz Al Madinah" },
+    ],
+    departure: "BOM",
+    rate: "₹ 7,84,000",
+    days: "12 nights",
+    description:
+      "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
+  },
+  {
+    img: hajjpackagesImg2,
+    title: "Hajj 2026 GOLD PACKAGE NON-SHIFTING SHORT TOUR (TOUR NO HT-02)",
+    hotels: [
+      { moullim: "Moullim No. :", category: "Category-D Plus" },
+      { hotelLocation: "Makkah :", hotelName: "  Snood Ajyad" },
+      { hotelLocation: "Madina :", hotelName: " Ritz Al Madinah" },
+    ],
+    departure: "BOM|AMD|NAG|Del",
+    rate: "₹ 8,10,000",
+    days: "19 nights",
+    description:
+      "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
+  },
+  {
+    img: hajjpackagesImg3,
+    title: "HAJJ 2026 GOLD SHIFTING SHORT TOUR (HT-04)",
+    hotels: [
+      { moullim: "Moullim No. :", category: "Category-D Plus" },
+      {
+        hotelLocation: "Makkah Shifting :",
+        hotelName: "Dreamzone Al Azizia/Rusaifah",
+      },
+      { hotelLocation: "Makkah :", hotelName: "  Snood Ajyad" },
+      { hotelLocation: "Madina :", hotelName: " Ritz Al Madinah" },
+    ],
+    departure: "BOM|AMD|NAG|Del",
+    rate: "₹ 6,76,000",
+    days: "19 nights",
+    description:
+      "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
+  },
+  {
+    img: hajjpackagesImg4,
+    title: "HAJJ 2026 SILVER SHIFTING LONG TOUR (HT-05)",
+    hotels: [
+      { moullim: "Moullim No. :", category: "Category-D Plus" },
+      {
+        hotelLocation: "Makkah Shifting :",
+        hotelName: "Azizia / Rusaifah",
+      },
+      { hotelLocation: "Makkah :", hotelName: " Snood Ajyad" },
+      { hotelLocation: "Madina :", hotelName: "  Hotel Mokhtara Plaza" },
+    ],
+    departure: "BOM|AMD|NAG|Del",
+    rate: "₹ 6,56,000",
+    days: "40 nights",
+    description:
+      "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
+  },
+  {
+    img: hajjpackagesImg5,
+    title: "Hajj 2026 SILVER PACKAGE NON-SHIFTING SHORT TOUR (HT-08)",
+    hotels: [
+      { moullim: "Moullim No. :", category: "Category-D Plus" },
+      { hotelLocation: "Makkah :", hotelName: " Aziza/Rusaifa/Kakia" },
+      { hotelLocation: "Madina :", hotelName: " Ritz Al Madinah" },
+    ],
+    departure: "BOM|Akasa Airlines",
+    rate: "₹ 6,70,000",
+    days: "19 nights",
+    description:
+      "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
+  },
+  {
+    img: hajjpackagesImg6,
+    title: "Hajj 2026 SILVER PACKAGE NON-SHIFTING SHORT TOUR (TOUR NO HT-09)",
+    hotels: [
+      { moullim: "Moullim No. :", category: "Category-D Plus" },
+      {
+        hotelLocation: "Makkah Shifting :",
+        hotelName: " Aziza/Rusaifa/Kakia",
+      },
+
+      { hotelLocation: "Madina :", hotelName: " Ritz Al Madinah" },
+    ],
+    departure: "BOM|AMD|NAG|Del",
+    rate: "₹ 6,05,000",
+    days: "12 nights",
+    description:
+      "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
+  },
+  {
+    img: hajjpackagesImg7,
+    title: "Hajj 2026 GOLD SHIFTING LONG TOUR (HT-10)",
+    hotels: [
+      { moullim: "Moullim No. :", category: "Category-D Plus" },
+      {
+        hotelLocation: "Makkah Shifting :",
+        hotelName: " Aziza/Rusaifa/Kakia",
+      },
+      { hotelLocation: "Makkah :", hotelName: " Makkah Hotel" },
+      { hotelLocation: "Madina :", hotelName: " Ritz Al Madinah" },
+    ],
+    departure: "BOM|AMD|NAG|Del",
+    rate: "₹ 7,01,000",
+    days: "35 nights",
+    description:
+      "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
+  },
+  {
+    img: hajjpackagesImg8,
+    title: "Hajj 2026 PLATINUM PACKAGE SHIFTING / LONG TOUR (TOUR NO HT-11)",
+    hotels: [
+      { moullim: "Moullim No. :", category: "Category-D Plus" },
+      {
+        hotelLocation: "Makkah Shifting :",
+        hotelName: " Aziza",
+      },
+      { hotelLocation: "Makkah :", hotelName: " Makkah Towers" },
+      { hotelLocation: "Madina :", hotelName: " Ritz Al Madinah" },
+    ],
+    departure: "BOM|AMD|NAG",
+    rate: "₹ 8,25,500",
+    days: "35 nights",
+    description:
+      "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
+  },
+  {
+    img: hajjpackagesImg9,
+    title: "Hajj 2026 PLATINUM PACKAGE SHIFTING SHORT TOUR (TOUR NO HT-12)",
+    hotels: [
+      { moullim: "Moullim No. :", category: "Category-D Plus" },
+      {
+        hotelLocation: "Makkah Shifting :",
+        hotelName: " Aziza",
+      },
+      { hotelLocation: "Makkah :", hotelName: " Makkah Towers" },
+      { hotelLocation: "Madina :", hotelName: " Ritz Al Madinah" },
+    ],
+    departure: "BOM|Akasa Airlines",
+    rate: "₹ 7,45,000",
+    days: "19 nights",
+    description:
+      "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
+  },
+  {
+    img: hajjpackagesImg10,
+    title: "Hajj 2026 DIAMOND PACKAGE SHIFTING SHORT TOUR (TOUR NO HT-13)",
+    hotels: [
+      { moullim: "Moullim No. :", category: "Category-D Plus" },
+      {
+        hotelLocation: "Makkah Shifting :",
+        hotelName: " Aziza",
+      },
+      { hotelLocation: "Makkah :", hotelName: " Makkah Hotel" },
+      { hotelLocation: "Madina :", hotelName: "  Al Aqeeq Madina" },
+    ],
+    departure: "BOM|AMD|NAG|Del",
+    rate: "₹ 9,29,500",
+    days: "19 nights",
+    description:
+      "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
+  },
+  {
+    img: hajjpackagesImg11,
+    title: "Hajj 2025 PLATINUM PACKAGE NON-SHIFTING SHORT TOUR (TOUR NO HT-14)",
+    hotels: [
+      { moullim: "Moullim No. :", category: "Category-D Plus" },
+      { hotelLocation: "Makkah :", hotelName: " Aziza" },
+      { hotelLocation: "Madina :", hotelName: " Ritz Al Madinah" },
+    ],
+    departure: "BOM|AMD|NAG|Del",
+    rate: "₹ 6,54,000",
+    days: "19 nights",
+    description:
+      "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
+  },
+  {
+    img: hajjpackagesImg12,
+    title: "Hajj 2026 GOLD PACKAGE NON-SHIFTING SHORT TOUR (TOUR NO HT-15)",
+    hotels: [
+      { moullim: "Moullim No. :", category: "Category-D Plus" },
+      { hotelLocation: "Makkah :", hotelName: " Aziza" },
+      { hotelLocation: "Madina :", hotelName: " Ritz Al Madinah" },
+    ],
+    departure: "BOM",
+    rate: "₹ 6,53,500",
+    days: "12 nights",
+    description:
+      "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
+  },
+  {
+    img: hajjpackagesImg13,
+    title: "HAJJ 2026 SILVER SHIFTING LONG TOUR (HT-20)",
+    hotels: [
+      { moullim: "Moullim No. :", category: "Category-D Plus" },
+      {
+        hotelLocation: "Makkah Shifting :",
+        hotelName: " Azizia / Rusaifah",
+      },
+      { hotelLocation: "Makkah :", hotelName: "  Rafedin Al Massi" },
+      { hotelLocation: "Madina :", hotelName: "  Burj Mukhtara" },
+    ],
+    departure: "BOM|AMD|Del",
+    rate: "₹ 5,29,500",
+    days: "40 nights",
+    description:
+      "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
   },
 ];

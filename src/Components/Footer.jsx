@@ -20,8 +20,8 @@ function Footer({ footerData }) {
 
   return (
     <div>
-      <div className=" flex justify-around bg-[#303030] text-[#deb76a] py-10 px-6 font-serif">
-        <div className=" w-[40%] flex flex-col justify-center items-center">
+      <div className=" flex justify-around bg-[#303030] text-[#deb76a] py-10 px-6 font-serif footer">
+        <div className=" w-[40%] flex flex-col justify-center items-center first-child">
           <Logo />
           <h2 className="text-2xl font-semibold  py-3">
             Hijrat Tours & Travels
@@ -38,7 +38,7 @@ function Footer({ footerData }) {
             </Link>{" "}
           </p>
           <h4 className="text-xl pb-3 font-semibold">Follow Us</h4>
-          <div className="flex gap-3">
+          <div className="flex gap-3 footer-img">
             {footerData.map((item, id) => {
               return (
                 <img
@@ -54,9 +54,12 @@ function Footer({ footerData }) {
         <div>
           <h2 className="text-2xl font-semibold pb-3">Packages</h2>
           <div className="text-[#e8d8bb]  text-lg">
-            {links.map((item, id) => {
+            {links.map((item, index) => {
               return (
-                <div className="pt-2 transform transition duration-300 ease-in-out hover:scale-110 ">
+                <div
+                  key={index}
+                  className="pt-2 transform transition duration-300 ease-in-out hover:scale-110 "
+                >
                   <Link to={item.link}>{item.title}</Link>
                 </div>
               );

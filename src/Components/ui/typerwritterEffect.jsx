@@ -2,8 +2,11 @@ import { motion, stagger, useAnimate, useInView } from "motion/react";
 import { useEffect } from "react";
 import { cn } from "../../../lib/utlis";
 import React from "react";
+import { useLocation } from "react-router-dom";
 
 export const TypewriterEffect = ({ words, className, cursorClassName }) => {
+  const location = useLocation();
+
   const wordsArray = words.map((word) => {
     return {
       ...word,
@@ -12,7 +15,7 @@ export const TypewriterEffect = ({ words, className, cursorClassName }) => {
   });
 
   const [scope, animate] = useAnimate();
-  const isInView = useInView(scope);
+  const isInView = useInView(scope, { once: true });
   useEffect(() => {
     if (isInView) {
       animate(
@@ -30,6 +33,22 @@ export const TypewriterEffect = ({ words, className, cursorClassName }) => {
       );
     }
   }, [isInView]);
+
+  useEffect(() => {
+    animate(
+      "span",
+      {
+        display: "inline-block",
+        opacity: 1,
+        width: "fit-content",
+      },
+      {
+        duration: 0.3,
+        delay: stagger(0.1),
+        ease: "easeInOut",
+      }
+    );
+  }, []);
 
   const renderWords = () => {
     return (
@@ -89,7 +108,7 @@ export const TypewriterEffectSmooth = ({
   className,
   cursorClassName,
 }) => {
-  const wordsArray = words.map((word) => {
+  const wordsArray = words?.map((word) => {
     return {
       ...word,
       text: word.text.split(""),
@@ -98,7 +117,7 @@ export const TypewriterEffectSmooth = ({
   const renderWords = () => {
     return (
       <div>
-        {wordsArray.map((word, idx) => {
+        {wordsArray?.map((word, idx) => {
           return (
             <div key={`word-${idx}`} className="inline-block">
               {word.text.map((char, index) => (
@@ -126,6 +145,7 @@ export const TypewriterEffectSmooth = ({
         whileInView={{
           width: "fit-content",
         }}
+        viewport={{ once: true, amount: 0.1 }}
         transition={{
           duration: 2,
           ease: "linear",

@@ -8,10 +8,40 @@ body {
   font-family: serif;
 }
 
+html {
+  font-family: "Poppins", sans-serif;
+}
+.custom-heading {
+  font-family: "Mozilla Headline", sans-serif;
+}
+
+.performUmrah {
+  width: 350px;
+  height: 200px;
+  cursor: pointer;
+}
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+  .first-child {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

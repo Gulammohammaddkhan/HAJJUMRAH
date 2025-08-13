@@ -15,6 +15,7 @@ import CustomCard from "./CustomCard";
 import Help from "./Help";
 import Partners from "./Partners";
 import Footer from "./Footer";
+import bgImg from "../Images/HeaderBg3.jpg";
 
 function Home() {
   const updatedData = packageCategories.map((obj, index) => {
@@ -23,7 +24,7 @@ function Home() {
 
   return (
     <div>
-      <Hero />
+      <Hero bgImg={bgImg} title="Hijrat tours" />
       <Wrapper>
         <h2 className="text-[#ddb66a] text-5xl  font-bold flex justify-center py-20">
           What we Offers
@@ -57,10 +58,10 @@ function Home() {
         })}
         <Media />
         <About aboutData={aboutData} />
-        <Help />
-        <Partners partnersData={partnersData} />
+        {/* <Help /> */}
+        {/* <Partners partnersData={partnersData} /> */}
       </Wrapper>
-      <Footer footerData={footerData} />
+      {/* <Footer footerData={footerData} /> */}
     </div>
   );
 }

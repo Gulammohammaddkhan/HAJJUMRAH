@@ -42,6 +42,12 @@ import hajjpackagesImg10 from "../src/Images/hajjpackagesImg10.jpg";
 import hajjpackagesImg11 from "../src/Images/hajjpackagesImg11.jpg";
 import hajjpackagesImg12 from "../src/Images/hajjpackagesImg12.jpg";
 import hajjpackagesImg13 from "../src/Images/hajjpackagesImg13.jpg";
+import stamp from "../src/Images/Stamp.png";
+import bag from "../src/Images/bag.png";
+import handshake from "../src/Images/handshake.png";
+import phone from "../src/Images/phone.png";
+import plate from "../src/Images/plate.png";
+import structure from "../src/Images/structure.png";
 
 export const navLinks = [
   {
@@ -962,5 +968,38 @@ export const hajjPackagesPageData = [
     days: "40 nights",
     description:
       "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
+  },
+];
+
+export const hajjPackagesCardData = [
+  {
+    imgSrc: stamp,
+    title: "Govt. Certified",
+    para: "We are officially recognized by the Indian and Saudi governments and as members of AIHUTOA, we provide a trusted Hajj, Umrah, and Ziyarat experience.",
+  },
+  {
+    imgSrc: structure,
+    title: "Accommodation in Haram",
+    para: "We provide premium hotels within walking distance of Masjid Al-Haram and Masjid Al-Nabawi, ensuring you spend more time for Ibadah and less on travel.",
+  },
+  {
+    imgSrc: plate,
+    title: "Indian Buffet Meals",
+    para: "Our Indian chefs prepare fresh, delicious buffet meals daily, offering familiar flavors and nutritious options to keep you energized during your spiritual journey.",
+  },
+  {
+    imgSrc: phone,
+    title: "24/7 Service Support",
+    para: "Our teams in India and Saudi Arabia are available 24/7 to assist you, ensuring your pilgrimage is smooth, stress-free, and supported every step of the way.",
+  },
+  {
+    imgSrc: bag,
+    title: "Transparent Pricing",
+    para: "We provide clear, upfront pricing with no hidden fees, so you can confidently plan your journey without surprises or extra charges.",
+  },
+  {
+    imgSrc: handshake,
+    title: "Proven Track Record",
+    para: "Senior management oversees your Hajj journey, ensuring personalized attention and high-quality service, making sure your pilgrimage experience is seamless and trustworthy.",
   },
 ];

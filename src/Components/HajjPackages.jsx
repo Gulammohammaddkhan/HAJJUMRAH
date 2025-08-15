@@ -3,10 +3,11 @@ import Hero from "./Hero";
 // import bgImg from "../Images/HeaderBG.avif";
 import bgImg from "../Images/hajjPackagesbg.jpeg";
 import Wrapper from "./Wrapper";
-import { hajjPackagesPageData } from "../../data/Data";
+import { hajjPackagesPageData, hajjPackagesCardData } from "../../data/Data";
 import CustomCard from "./CustomCard";
 import Logo from "../Components/Logo";
 import Button from "./Button";
+import Cards from "./Cards";
 
 function HajjPackages() {
   return (
@@ -66,6 +67,9 @@ function HajjPackages() {
               <Button text={"Download Brochure"} textColor={"#ddb66a"} />
             </div>
           </div>
+        </div>
+        <div>
+          <Cards hajjPackagesCardData={hajjPackagesCardData} />
         </div>
       </Wrapper>
     </div>

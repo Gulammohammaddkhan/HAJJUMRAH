@@ -1003,3 +1003,334 @@ export const hajjPackagesCardData = [
     para: "Senior management oversees your Hajj journey, ensuring personalized attention and high-quality service, making sure your pilgrimage experience is seamless and trustworthy.",
   },
 ];
+
+export const faqData = [
+  {
+    title: "What is Hajj in Islam?",
+    para: "Hajj is one of the five pillars of Islam, representing a mandatory religious journey for Muslims who are physically and financially able to undertake it. It is performed annually in Mecca, Saudi Arabia, during the Islamic month of Dhu al-Hijjah. Hajj includes a series of rituals and prayers, such as Tawaf (circumambulating the Kaaba), Sa’i (walking between the hills of Safa and Marwah), and prayers in Arafat and a night in Muzdalifah, which symbolize submission to Allah, spiritual renewal, and unity among Muslims.",
+  },
+  {
+    title: "How many days is Hajj?",
+    para: "Hajj lasts for 5 days, typically from the 8th to the 12th of Dhu al-Hijjah, the last month of the Islamic lunar calendar. However, the overall trip can last longer due to travel and preparatory rituals. Bakhla tours offer options from 12 days to 40 days.",
+  },
+  {
+    title: "What is VIP Hajj?",
+    para: "VIP Hajj refers to premium Hajj packages that offer enhanced services and accommodations during: hajj 5 days, 5-star accommodations, personalized services, and more comfortable experiences during the pilgrimage. These packages are designed for pilgrims seeking more exclusive, high-end services throughout their journey.",
+  },
+  {
+    title: "What is the price of Hajj Package From Mumbai?",
+    para: "Hijrat Tours offers several Hajj packages from Mumbai for 2025, each with varying durations, accommodations, and services. Here are some options:",
+    para1:
+      "Gold Non-Shifting Short Tour (HT-02): A 12-night package with accommodations 300 meters from the Haram in Makkah and 200 meters from the Haram in Madinah, including a Mouallim in Category-D+.",
+    para2:
+      " Gold Non-Shifting Long Tour (HT-03): A 20-day package with enhanced services during the 5 days of Hajj, including a Mouallim in Category-D+.",
+    para3:
+      " Platinum Shifting Long Tour (HT-10): A premium 20-day package with shifting accommodations and a Mouallim in Category-D+, offering excellent services during the 5 days of Hajj.",
+    para4:
+      " Diamond Non-Shifting Short Tour (HT-14): A 12-night package with premium accommodations and services, including a Mouallim in Category-A.",
+    para5: " Packages Starting From: 485500/- Rs only.",
+    para6:
+      " For detailed pricing and to choose the package that best fits your needs, please Call or Whatsapp us on: +91 7977199070 ",
+  },
+  {
+    title: "Why are Hajj Packages so Expensive?",
+    para: "Hajj packages can be expensive due to several factors:",
+    para1:
+      "(1).Travel Costs: Flights to Saudi Arabia, especially during peak seasons, can be costly",
+    para2:
+      "(2). Accommodation: Proximity to the holy sites like the Haram in Makkah and Madinah in high season, along with quality services, increases accommodation costs.",
+    para3:
+      "(3).Transportation: Private buses and other transport services for pilgrims add to the cost.",
+    para4:
+      "(4). Meals: High-quality meals with a large variety, prepared by experienced chefs thrice a day",
+    para5:
+      "(5).Services: Additional services like guided tours, 24×7 assistance and personalized support increase the overall cost.",
+    para6:
+      " (6).Government Fees: Saudi Arabian authorities charge fees for Hajj permits, which contribute to the overall package cost. ",
+    para7:
+      "  These factors combine to make Hajj packages a significant investment. But Individually, the cost of each service—such as flights, hotels, and transportation—would be significantly higher due to standard retail pricing. However, when booked as part of a package through a tour operator, the overall cost is substantially reduced. This is because tour operators secure better rates through bulk bookings, allowing them to pass on the savings to their clients—resulting in a win-win for everyone involved.",
+  },
+  {
+    title: "What is the Cost of a Hajj Packages For 2 Persons From India",
+    para: "The cost of a Hajj package for 2 persons from India varies depending on the package type and the city of departure. Generally Economy Packages for 2025 started for around 4,85,000 rs per person. Please Contact Us for more details.",
+  },
+  {
+    title: "What is Cost of a 15-Day Hajj Package From Mumbai?",
+    para: "The cost of a 15-day Hajj package from Mumbai varies depending on the selected package. For specific pricing, it’s best to contact Bakhla Tours directly, ",
+  },
+  {
+    title: "Can I Book a Hajj Packages For Just 1 Person From India?",
+    para: "Yes, you can also book a Hajj package for a Single Gents or Ladies from India. Bakhla Tours offers individual packages starting from per person also as per your budget.",
+  },
+  {
+    title: "What is the Price of a Private Hajj Package From India in 2025?",
+    para: "The cost of a Private Hajj Package From India in 2025 depends on your chosen package. Private packages generally offer more personalized services, premium accommodations, and flexibility. As for the 2026 Hajj packages, detailed information and pricing will tentatively become available in October or November 2025. For specific updates connect with us on +91 9920820751 and register your self for an early bird discount for the coming year. ",
+  },
+  {
+    title:
+      "Do You Offer Hajj Packages From Lucknow, Bangalore, Chennai, and Delhi?",
+    para: "Yes, Hijrat Tours offers Hajj packages from Lucknow, Bangalore, Kolkata, Chennai, Hyderabad, Delhi and many other cities in India and all over the world. All you need is an Indian Passport, and you can book with us. We provide various packages, including shifting, non-shifting, short tours and long tours with many variations in different categories like Bronze, Silver, Gold, Platinum and Diamond. Please visit “Contact Us” for more details.",
+  },
+  {
+    title: "How Much Dose a Typical Hajj Package Cost From India?",
+    para: "The cost of a typical Hajj package from India ranges from ₹4,85,000 to ₹6,50,000 per person, depending on the type of package (shifting or non-shifting) and the city of departure. For accurate pricing, it’s best to contact Bakhla Tours directly.",
+  },
+  {
+    title:
+      "How Much Does Private Hajj Package From Mumbai Cost in 2024 For Indian Pilgrims?",
+    para: "Private Hajj packages from Mumbai in 2024 range from ₹4.5 Lakhs to ₹13.5 Lakhs, depending on the duration, hotel category, and room sharing type. Packages typically include flights, visa, accommodation in Makkah & Madinah, meals, internal transfers, laundry, ziyarat, guided Hajj and much more. For best deals and availability, book early with Hijrat Tours.",
+  },
+  {
+    title: "What is the cost of a Hajj package for 2 persons from India?",
+    para: "Our Hajj package for 2 persons from India starts from around ₹Price brochure lakhs per couple and varies based on the type of accommodation and services included. Many times, these are special deals available on these packages, so make sure to inquire. ",
+  },
+  {
+    title: "Do you offer a 15-day Hajj Package?",
+    para: "Yes, we offer a specially designed 15-day Hajj package, ideal for those seeking to complete their pilgrimage within a shorter timeframe while still fulfilling all the rituals.",
+  },
+  {
+    title: "What’s included in the India to Saudi Arabia Hajj Package?",
+    para: "Our India to Saudi Arabia Hajj packages cover everything: visa, return airfare, hotels in Makkah and Madinah, meals, local transport, group guidance, emergency support, and much more. ",
+  },
+  {
+    title: "What are the expenses for the Hajj from India?",
+    para: "The expenses for Hajj from India range from ₹Price broucher lakhs to ₹Price broucher lakhs, depending on the chosen package, and time of booking. Booking early can help you save significantly. ",
+  },
+  {
+    title: "What is the price of the Hajj 2026 starting from?",
+    para: "Our Hajj 2026 price starts from ₹. Price brochure for economy packages. Luxury and premium options are also available for those seeking a higher level of service.",
+  },
+  {
+    title: "Do you provide a step-by-step guided Hajj?",
+    para: "Yes. We offer a step-by-step guided Hajj experience, with trained scholars and group leaders assisting you through every ritual to ensure you perform Hajj correctly and peacefully, along with our team's support 24x7. ",
+  },
+];
+
+export const detailData = [
+  {
+    id: 1,
+    title: "Hajj Packages 2026 – Reliable Hajj Tour Operators from India",
+    disc: (
+      <>
+        <p>
+          Are you preparing for Hajj 2026? Begin your journey of a lifetime with
+          confidence through our trusted Hajj tour packages, especially designed
+          for Indian pilgrims. As recognized Hajj tour operators, we offer
+          all-inclusive Hajj 2026 packages tailored to suit various budgets and
+          preferences, ranging from Affordable low-budget Hajj packages to
+          luxury Hajj experiences.
+        </p>
+        <p>
+          Our mission is to make your pilgrimage to the holy cities of Makkah
+          and Madinah a stress-free, spiritual, and fully guided experience.
+          With years of experience in providing comprehensive Hajj services, we
+          ensure that every step of your journey, from booking to return, is
+          seamless and deeply fulfilling.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 2,
+    title: "Hajj 2026 Dates & Important Booking Information",
+    disc: (
+      <>
+        <p>
+          The sacred journey of Hajj 2026 in Saudi Arabia is expected to take
+          place from{" "}
+          <strong className="text-[#ddb66a]">May 25th to May 30th</strong>,
+          aligning with the{" "}
+          <strong className="text-[#ddb66a]">8th to 13th of Dhul Hijjah</strong>{" "}
+          in the Islamic calendar. The important{" "}
+          <strong className="text-[#ddb66a]">Day of Arafat</strong> is
+          tentatively scheduled between the{" "}
+          <strong className="text-[#ddb66a]">
+            evening of Monday, May 25 to Tuesday, May 26, 2026
+          </strong>
+        </p>
+        <p>
+          <strong className="text-[#ddb66a]">Hajj bookings have started</strong>
+          , and are in high demand like every year. We advise pilgrims to{" "}
+          <strong className="text-[#ddb66a]">
+            reserve their Hajj 2026 package as early as possible
+          </strong>
+          . Bookings are open now and are tentatively expected to{" "}
+          <strong className="text-[#ddb66a]">close by February 2026</strong>
+        </p>
+        <p>
+          Avoid the disappointment of missing out—plan and ensure your place in
+          this spiritual journey well before the deadline.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 3,
+    title: "Special Offer – Secure Your Hajj 2026 Seat for Just ₹50,000",
+    disc: (
+      <>
+        <p>
+          To make this journey financially convenient, we’re offering you a
+          special chance to{" "}
+          <strong className="text-[#ddb66a]">block your Hajj seat</strong> with
+          a small token amount of{" "}
+          <strong className="text-[#ddb66a]">₹50,000</strong>. The remaining
+          amount can be paid in{" "}
+          <strong className="text-[#ddb66a]">
+            easy halal installments (no Interest or any other charges
+            applicable)
+          </strong>
+          , giving you enough time to manage your expenses until your final
+          payment deadline.
+        </p>
+        <p>
+          This limited-time offer is designed to make your{" "}
+          <strong className="text-[#ddb66a]">
+            dream of performing Hajj a reality
+          </strong>{" "}
+          without financial burden. Lock your spot today and take the first step
+          toward fulfilling your obligation.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 4,
+    title: "Tailored Hajj Packages for 2026 – Designed to Meet Every Need",
+    disc: (
+      <>
+        <p>
+          We provide a diverse selection of Hajj tour packages, catering to
+          pilgrims from all walks of life:
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 5,
+    title: "Cheap Hajj Packages",
+    disc: (
+      <>
+        <p>
+          If you’re looking for low-cost Hajj packages, we offer budget-friendly
+          options without compromising on safety, hygiene, or essential
+          services. These packages are ideal for pilgrims who prioritize
+          affordability while seeking a fulfilling Hajj experience.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 6,
+    title: "Luxury Hajj Packages",
+    disc: (
+      <>
+        <p>
+          Our luxury Hajj packages are tailored for those who desire a more
+          comfortable journey with 5-star accommodations, 3 times wide-spread
+          fresh buffet meals, and personalized service. Perfect for those
+          pilgrims looking for ease and elegance with comfort. There are two
+          options in this category: Diamond Luxury Hajj Packages and Platinum
+          Luxury Hajj Packages.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 7,
+    title: "0 Mtrs Haram Hajj Packages",
+    disc: (
+      <>
+        <p>
+          Stay in the heart of Makkah with our exclusive Clock Tower Hajj
+          Package or Makkah Tower Hajj Packages in our Shifting and Non-Shifting
+          Hajj accommodations—just steps away from Masjid al-Haram. This package
+          offers maximum convenience and a spiritually uplifting atmosphere.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 8,
+    title: "Short Hajj Packages",
+    disc: (
+      <>
+        <p>
+          Often, Businessmen and working professionals struggle because of a
+          lack of time to perform a 40-day Hajj stay. For the convenience of
+          these people, we offer short Hajj packages that are ideal for
+          individuals or families seeking a compact yet comprehensive
+          experience. We manage all rituals, transportation, and accommodations
+          within a shorter stay.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 9,
+    title: "Comprehensive Hajj Services",
+    disc: (
+      <>
+        <p>
+          Each Hajj 2026 package is all-inclusive, offering the following
+          services:
+        </p>
+        <ul>
+          <li>
+            {" "}
+            <strong className="text-[#ddb66a]">
+              Visa Processing & Documentation
+            </strong>
+          </li>
+          <li>
+            {" "}
+            <strong className="text-[#ddb66a]">
+              Round-Trip Airfare (India to Saudi Arabia) or (Your country to
+              Saudi Arabia)
+            </strong>
+          </li>
+          <li>
+            {" "}
+            <strong className="text-[#ddb66a]">
+              Accommodation in Makkah & Madinah (Economy to Luxury)
+            </strong>
+          </li>
+          <li>
+            {" "}
+            <strong className="text-[#ddb66a]">
+              Daily Meals & Refreshments
+            </strong>
+          </li>
+          <li>
+            {" "}
+            <strong className="text-[#ddb66a]">
+              On-Ground Transport for All Rituals
+            </strong>
+          </li>
+          <li>
+            {" "}
+            <strong className="text-[#ddb66a]">Ziyarat Tours</strong>in Islamic
+            historical sites
+          </li>
+          <li>
+            {" "}
+            <strong className="text-[#ddb66a]">
+              Step-by-step guided Hajj
+            </strong>{" "}
+            with scholars and group leaders
+          </li>
+          <li>
+            {" "}
+            <strong className="text-[#ddb66a]">
+              24/7 Support Team and Emergency Assistance
+            </strong>
+          </li>
+        </ul>
+        <p>
+          Every detail is handled with care and respect, so you can focus
+          entirely on your spiritual goals.
+        </p>
+      </>
+    ),
+  },
+];

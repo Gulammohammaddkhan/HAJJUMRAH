@@ -91,7 +91,10 @@ function Help() {
               onChange={(e) => setName(e.target.value)}
             />
             <input
-              type="number"
+              type="tel"
+              id="phone"
+              name="phone"
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
               placeholder="Mobile number*"
               className="border-2 overflow-hidden outline-none "
               value={number}
@@ -149,4 +152,3 @@ function Help() {
 }
 
 export default Help;
-

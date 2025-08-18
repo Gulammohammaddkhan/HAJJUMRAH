@@ -4,7 +4,7 @@ import { div } from "motion/react-client";
 
 function Cards({ hajjPackagesCardData }) {
   return (
-    <div>
+    <div className="pb-12">
       <h2 className="text-3xl text-[#ddb66a] flex justify-center items-center pt-14">
         Why Choose Hijrat Tours & Travels Pvt Ltd
       </h2>

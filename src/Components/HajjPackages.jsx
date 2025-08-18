@@ -8,6 +8,8 @@ import CustomCard from "./CustomCard";
 import Logo from "../Components/Logo";
 import Button from "./Button";
 import Cards from "./Cards";
+import Faq from "./Faq";
+import Detail from "./Detail";
 
 function HajjPackages() {
   return (
@@ -71,9 +73,63 @@ function HajjPackages() {
         <div>
           <Cards hajjPackagesCardData={hajjPackagesCardData} />
         </div>
+        <Detail />
+        {/* FAQ */}
+        <Faq />
       </Wrapper>
     </div>
   );
 }
 
 export default HajjPackages;
+
+// const Faq = () => {
+//   const [currentIndex, setCurrentIndex] = useState(null);
+
+//   const handleFAQToggle = (index) => {
+//     setCurrentIndex(currentIndex === index ? null : index);
+//   };
+
+//   return (
+//     <div className="max-w-2xl mx-auto p-6 text-white">
+//       <h2 className="text-2xl font-bold text-center mb-6 text-[#ddb66a]">
+//         Frequently Asked Questions
+//       </h2>
+//       <ul className="space-y-4">
+//         {faqData.map((item, index) => {
+//           const isOpen = currentIndex === index;
+//           return (
+//             <li
+//               key={item.title}
+//               className="border border-[#ddb66a]/40 rounded-xl overflow-hidden bg-[#1a1a1a] shadow-md hover:shadow-[#ddb66a]/20 transition"
+//             >
+//               <button
+//                 onClick={() => handleFAQToggle(index)}
+//                 className="w-full flex items-center justify-between p-4 focus:outline-none"
+//               >
+//                 <span className="text-lg font-medium">{item.title}</span>
+//                 {isOpen ? (
+//                   <FaMinus size={18} className="text-[#ddb66a]" />
+//                 ) : (
+//                   <FaPlus size={18} className="text-[#ddb66a]" />
+//                 )}
+//               </button>
+
+//               <div
+//                 className={`transition-all duration-300 overflow-hidden ${
+//                   isOpen ? "max-h-40 p-4 pt-0" : "max-h-0"
+//                 }`}
+//               >
+//                 <p className="text-sm text-gray-300 leading-relaxed">
+//                   {item.para}
+//                 </p>
+//               </div>
+//             </li>
+//           );
+//         })}
+//       </ul>
+//     </div>
+//   );
+// };
+
+// export default Faq;

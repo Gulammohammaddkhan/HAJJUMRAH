@@ -21,6 +21,7 @@ const Faq = () => {
           <ul className="space-y-4">
             {faqData.map((item, index) => {
               const isOpen = currentIndex === index;
+
               return (
                 <li
                   key={item.title}
@@ -39,32 +40,19 @@ const Faq = () => {
                       <FiPlus size={18} className="text-[#e8d8bb]" />
                     )}
                   </button>
-
                   <div
                     className={`transition-all duration-300 overflow-hidden ${
                       isOpen ? "max-h-[800px] p-4 pt-0" : "max-h-0"
-                    }`}
+                    } `}
                   >
-                    {[
-                      item.para,
-                      item.para1,
-                      item.para2,
-                      item.para3,
-                      item.para4,
-                      item.para5,
-                      item.para6,
-                      item.para7,
-                    ]
-                      .filter(Boolean)
-                      .map((para, idx) => (
-                        <p
-                          key={idx}
-                          className="text-sm text-[#ebd3a6] leading-relaxed mb-2"
-                        >
-                          {para}
-                        </p>
-                      ))}
+                    <p
+                      key={index}
+                      className="text-sm text-[#ebd3a6] leading-relaxed mb-2"
+                    >
+                      {item.para}
+                    </p>
                   </div>
+                  {/* */}
                 </li>
               );
             })}

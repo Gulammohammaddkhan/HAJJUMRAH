@@ -48,6 +48,21 @@ import handshake from "../src/Images/handshake.png";
 import phone from "../src/Images/phone.png";
 import plate from "../src/Images/plate.png";
 import structure from "../src/Images/structure.png";
+import Umrahpg1 from "../src/Images/umrahPg1.jpg";
+import Umrahpg2 from "../src/Images/umrahPg2.jpg";
+import Umrahpg3 from "../src/Images/umrahPg3.jpg";
+import Umrahpg4 from "../src/Images/umrahpg4.jpg";
+import Umrahpg5 from "../src/Images/umrahpg5.jpg";
+import Umrahpg6 from "../src/Images/umrahpg6.jpg";
+import Umrahpg7 from "../src/Images/umrahpg7.jpg";
+import Umrahpg8 from "../src/Images/umrahpg8.jpg";
+import Umrahpg9 from "../src/Images/umrahpg9.jpg";
+import Umrahpg10 from "../src/Images/umrahpg10.jpg";
+import Umrahpg11 from "../src/Images/umrahpg11.jpg";
+import Umrahpg12 from "../src/Images/umrahpg12.jpg";
+import Umrahpg13 from "../src/Images/umrahpg13.jpg";
+import Umrahpg14 from "../src/Images/umrahpg14.jpg";
+import Umrahpg15 from "../src/Images/umrahpg15.jpg";
 
 export const navLinks = [
   {
@@ -1329,6 +1344,691 @@ export const detailData = [
         <p>
           Every detail is handled with care and respect, so you can focus
           entirely on your spiritual goals.
+        </p>
+      </>
+    ),
+  },
+];
+
+export const umrahPackagesPageData = [
+  {
+    img: Umrahpg1,
+    title: "GOLD UMRAH PACKAGE AUGUST 2025",
+    hotels: [
+      {
+        hotelLocation: "Makkah :",
+        hotelName: " SNOOD AJYAD HOTEL (AL SARAYA EMAN)",
+      },
+      { hotelLocation: "Madina :", hotelName: " ODST AL MADINAH HOTEL" },
+    ],
+    departure: "BOM|AMD",
+    rate: "₹ 98,500",
+    days: "14 nights",
+  },
+  {
+    img: Umrahpg14,
+    title: "SILVER UMRAH PACKAGE AUGUST 2025",
+    hotels: [
+      { hotelLocation: "Makkah :", hotelName: " RAFEIDIN AL MASI HOTEL" },
+      { hotelLocation: "Madina :", hotelName: " BURJ MUKHTARA HOTEL" },
+    ],
+    departure: "BOM",
+    rate: "₹82,000",
+    days: "14 nights",
+  },
+  {
+    img: Umrahpg15,
+    title: "BRONZE UMRAH PACKAGE AUGUST 2025",
+    hotels: [
+      { hotelLocation: "Makkah :", hotelName: " BILAL FUNDAQ HOTEL" },
+      { hotelLocation: "Madina :", hotelName: " SHAZA AL MUNAWARA HOTEL" },
+    ],
+    departure: "BOM",
+    rate: "₹ 72,000",
+    days: "14 nights",
+  },
+  {
+    img: Umrahpg2,
+    title: "GOLD UMRAH PACKAGE SEPTEMBER 2025",
+    hotels: [
+      {
+        hotelLocation: "Makkah :",
+        hotelName: " SNOOD AJYAD HOTEL (AL SARAYA EMAN) ",
+      },
+      { hotelLocation: "Madina :", hotelName: " ODST AL MADINAH HOTEL" },
+    ],
+    departure: "BOM|AMD",
+    rate: "₹ 98,500",
+    days: "14 nights",
+  },
+  {
+    img: Umrahpg3,
+    title: "SILVER UMRAH PACKAGE SEPTEMBER 2025",
+    hotels: [
+      { hotelLocation: "Makkah :", hotelName: " MIRA AL SUD HOTEL" },
+      { hotelLocation: "Madina :", hotelName: " MIRAMAR HOTEL" },
+    ],
+    departure: "BOM",
+    rate: "₹ 81,500",
+    days: "14 nights",
+  },
+  {
+    img: Umrahpg13,
+    title: "BRONZE UMRAH PACKAGE SEPTEMBER 2025",
+    hotels: [
+      { hotelLocation: "Makkah :", hotelName: " BILAL FUNDAQ HOTEL " },
+      { hotelLocation: "Madina :", hotelName: " SHAZA AL MUNAWARA HOTEL" },
+    ],
+    departure: "BOM",
+    rate: "₹ 73,000",
+    days: "14 nights",
+  },
+  {
+    img: Umrahpg7,
+    title: "GOLD UMRAH PACKAGE OCTOBER 2025",
+    hotels: [
+      {
+        hotelLocation: "Makkah :",
+        hotelName: " SNOOD AJYAD HOTEL (AL SARAYA EMAN) ",
+      },
+      { hotelLocation: "Madina :", hotelName: " ODST AL MADINAH HOTEL" },
+    ],
+    departure: "BOM|AMD",
+    rate: "₹ 1,03,500",
+    days: "14 nights",
+  },
+  {
+    img: Umrahpg8,
+    title: "SILVER UMRAH PACKAGE OCTOBER 2025",
+    hotels: [
+      { hotelLocation: "Makkah :", hotelName: " MIRA AL SUD HOTEL " },
+      { hotelLocation: "Madina :", hotelName: " MIRAMAR HOTEL" },
+    ],
+    departure: "BOM",
+    rate: "₹81,500",
+    days: "14 nights",
+  },
+  {
+    img: Umrahpg9,
+    title: "BRONZE UMRAH PACKAGE OCTOBER 2025",
+    hotels: [
+      { hotelLocation: "Makkah :", hotelName: " BILAL FUNDAQ HOTEL " },
+      { hotelLocation: "Madina :", hotelName: " SHAZA AL MUNAWARA HOTEL" },
+    ],
+    departure: "BOM",
+    rate: "₹ 74,000",
+    days: "14 nights",
+  },
+  {
+    img: Umrahpg10,
+    title: "GOLD UMRAH PACKAGE NOVEMBER 2025",
+    hotels: [
+      {
+        hotelLocation: "Makkah :",
+        hotelName: " SNOOD AJYAD HOTEL (AL SARAYA EMAN) ",
+      },
+      { hotelLocation: "Madina :", hotelName: " ODST AL MADINAH HOTEL" },
+    ],
+    departure: "BOM|AMD",
+    rate: "₹ 1,03,000",
+    days: "14 nights",
+  },
+  {
+    img: Umrahpg11,
+    title: "SILVER UMRAH PACKAGE NOVEMBER 2025",
+    hotels: [
+      { hotelLocation: "Makkah :", hotelName: " RAFEIDIN AL MASI HOTEL " },
+      { hotelLocation: "Madina :", hotelName: " BURJ MUKHTARA HOTEL" },
+    ],
+    departure: "BOM",
+    rate: "₹ 82,500",
+    days: "14 nights",
+  },
+  {
+    img: Umrahpg12,
+    title: "BRONZE UMRAH PACKAGE NOVEMBER 2025",
+    hotels: [
+      { hotelLocation: "Makkah :", hotelName: " BILAL FUNDAQ HOTEL " },
+      { hotelLocation: "Madina :", hotelName: " SHAZA AL MUNAWARAHOTEL" },
+    ],
+    departure: "BOM",
+    rate: "₹ 74,000",
+    days: "14 nights",
+  },
+  {
+    img: Umrahpg6,
+    title: "GOLD UMRAH PACKAGE DECEMBER 2025",
+    hotels: [
+      {
+        hotelLocation: "Makkah :",
+        hotelName: " SNOOD AJYAD HOTEL (AL SARAYA EMAN) ",
+      },
+      { hotelLocation: "Madina :", hotelName: "Madinah Hotel" },
+    ],
+    departure: "BOM|AMD",
+    rate: "₹ 1,04,500",
+    days: "14 nights",
+  },
+  {
+    img: Umrahpg5,
+    title: "SILVER UMRAH PACKAGE DECEMBER 2025",
+    hotels: [
+      { hotelLocation: "Makkah :", hotelName: " RAFEIDIN AL MASI HOTEL " },
+      { hotelLocation: "Madina :", hotelName: " BURJ MUKHTARA HOTEL" },
+    ],
+    departure: "BOM",
+    rate: "₹83,500",
+    days: "14 nights",
+  },
+  {
+    img: Umrahpg4,
+    title: "BRONZE UMRAH PACKAGE DECEMBER 2025",
+    hotels: [
+      { hotelLocation: "Makkah :", hotelName: " BILAL HOTEL " },
+      { hotelLocation: "Madina :", hotelName: " KINAN AL MADINAH HOTEL" },
+    ],
+    departure: "BOM",
+    rate: "₹ 74,000",
+    days: "14 nights",
+  },
+];
+
+export const umrahDetailData = [
+  {
+    id: 1,
+    title: "Umrah Packages: A Spiritual Voyage with Bakhla Tours & Travels",
+    disc: (
+      <>
+        <p>
+          At Hijrat Tours & Travels, we understand that Umrah packages are more
+          than just a journey—it’s a profound spiritual experience that
+          transforms your heart and soul. Whether you are stepping into the
+          sacred lands for the first time or returning to renew your connection
+          with Allah, we’re here to make your pilgrimage effortless and
+          fulfilling. Our diverse range of Umrah packages offers flexibility,
+          comfort, and value, ensuring that your journey is as peaceful and
+          enriching as possible.
+        </p>
+        <p>
+          Our dedicated team will help you navigate every step of your Umrah
+          tour, from visa arrangements to accommodations and guided services, as
+          well as other essential requirements. Discover the sacredness of
+          Makkah and Madinah with Bakhla Tours & Travels Pvt. Ltd., and let us
+          guide you on this sacred path.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 2,
+    title: "Why Choose Bakhla Tours for Your Umrah Packages?",
+    disc: (
+      <>
+        <p>
+          When it comes to arranging your Umrah packages, trust Hijrat Tours &
+          Travels to deliver a service that goes beyond expectations. Here are a
+          few reasons why we are the preferred choice:
+        </p>
+        <ul>
+          <li>
+            {" "}
+            <strong>Trusted Expertise:</strong> With years of experience in
+            organizing Umrah tours, Hijrat Tours provides detailed attention to
+            your comfort and convenience.
+          </li>
+          <li>
+            {" "}
+            <strong>Budget Umrah packages:</strong> These tours are designed to
+            accommodate a range of financial plans, ensuring that everyone has
+            the opportunity to fulfill this spiritual obligation.
+          </li>
+          <li>
+            {" "}
+            <strong>Affordable Packages:</strong> All the packages are designed
+            keeping in mind the requirements of our Hajjis in the best possible
+            budget. At Hijrat Tours, we take pride in offering the most
+            competitive rates, making us the Best Umrah tour package provider.
+            Our commitment to providing the best value ensures you receive
+            exceptional service at unbeatable prices.
+          </li>
+          <li>
+            {" "}
+            <strong>Tailored Itineraries:</strong> Whether you’re seeking a
+            luxury Umrah package or a low-price Umrah package, we offer a range
+            of options to fit every need. Simply state your requirements to us,
+            and we will provide you with amazing deals accordingly.
+          </li>
+          <li>
+            {" "}
+            <strong>Ease and Convenience:</strong> We handle all the logistics,
+            from Umrah flight tickets to accommodation, transport, and visa
+            services, so you can focus entirely on your spiritual journey. Our
+            Umrah packages are designed to provide pilgrims with a hassle-free
+            and enriching all-inclusive pilgrimage experience, filled with peace
+            and devotion.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    id: 3,
+    title: "Affordable and Luxurious Umrah Packages",
+    disc: (
+      <>
+        {" "}
+        <p>
+          Hijrat Tours offers a variety of <strong>Umrah packages 2025</strong>{" "}
+          for all kinds of travelers. Whether you’re traveling as a couple, a
+          family, or in a group, our services are flexible to meet your unique
+          needs.{" "}
+        </p>
+        <div>
+          <h2>Budget Umrah Packages</h2>
+          <p>
+            For those seeking an affordable experience, our budget Umrah
+            packages offer essential services at a highly competitive price.
+            This is the cheapest Umrah package in our range, but rest assured,
+            we maintain the high standards and reputation of our brand. You’ll
+            stay in comfortable hotels, enjoy convenient shuttle services to
+            Masjid al-Haram, and indulge in delicious meals. It’s the perfect
+            blend of comfort and affordability, ensuring a fulfilling Umrah
+            experience without compromising on quality.
+          </p>
+        </div>
+        <div>
+          <h2>Silver Umrah Package:</h2>
+          <p>
+            Our Silver Umrah Package strikes the perfect balance between comfort
+            and affordability. Designed for pilgrims seeking a better level of
+            convenience without the premium cost, this package offers
+            comfortable accommodations at walking distance to the Masjid
+            al-Haram, all transportation, and delicious meals. With our Silver
+            Umrah Package, you’ll enjoy a more enriching experience. Ideal for
+            those looking for a well-rounded Umrah package at a great price.
+          </p>
+        </div>
+        <div>
+          <h2>Smart-Luxury Umrah Packages:</h2>
+          <p>
+            For those seeking a more indulgent experience, our Smart-Luxury Gold
+            Umrah packages include hotels as close as a few short minutes walk
+            to the Haram Shareef, all transportation, and the best services to
+            ensure your journey is nothing short of extraordinary. Enjoy
+            enhanced comfort, wide-spread Indian meals, and closer proximity to
+            the Haram.
+          </p>
+        </div>
+        <div>
+          <h2>Family Umrah Packages:</h2>
+          <p>
+            Our Umrah family packages are designed to offer a smooth experience
+            for families. We understand the unique needs of families traveling
+            together, and our packages ensure that everyone is well taken care
+            of. With family-friendly accommodation and dedicated support, your
+            pilgrimage will be memorable for all the right reasons.{" "}
+          </p>
+        </div>
+        <div>
+          <h2>
+            The Perfect Family Holiday: Umrah Packages for a Spiritual Vacation
+          </h2>
+          <p>
+            When the holiday season arrives and you’re looking for the perfect
+            family vacation, the Vacation Umrah Package is the ultimate choice.
+            It’s where your family can connect with Islam in the most beautiful
+            environment on earth and become guests of Allah. At Bakhla Tours, we
+            offer special Umrah holiday packages designed to provide your family
+            with an unforgettable experience, especially during school breaks
+            like Diwali, Christmas, and summer vacations. Let Makkah and Madinah
+            guide your children closer to Allah, showing them the true beauty of
+            Islam in a way no other place can.{" "}
+          </p>
+        </div>
+      </>
+    ),
+  },
+  {
+    id: 4,
+    title: "High Season and Low Season Umrah Packages",
+    disc: (
+      <>
+        <p>
+          Choosing the right time to perform Umrah is crucial for a smooth and
+          fulfilling pilgrimage. We offer high-season and low-season Umrah
+          packages to cater to every pilgrim’s needs.
+        </p>
+        <div>
+          <h3>High Season Umrah Packages:</h3>
+          <p>
+            The high season for Umrah usually coincides with the Islamic months
+            of Ramadan and immediately after hajj season ends, when pilgrims
+            from around the world travel to the holy cities of Makkah and
+            Madinah. During this time, the demand for Umrah packages is high,
+            and prices tend to rise. However, the spiritual atmosphere is
+            unparalleled, with thousands of Muslims coming together for prayer
+            and reflection.
+          </p>
+          <ul>
+            <li>
+              {" "}
+              <strong>Peak Season:</strong> Ramadan and Dhul-Hijjah{" "}
+            </li>
+            <li>
+              {" "}
+              <strong>Cost:</strong> Higher due to increased demand, but Hijrat
+              Tours ensures competitive pricing.{" "}
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Low Season Umrah Packages:</h3>
+          <p>
+            If you prefer a quieter and more intimate experience, our low-season
+            Umrah packages are ideal. This period generally falls outside
+            Ramadan and the Hajj season, allowing pilgrims to perform Umrah in
+            peace and tranquility. The low season offers lower prices, fewer
+            crowds, and a more relaxed atmosphere.
+          </p>
+          <ul>
+            <li>
+              {" "}
+              <strong>Off</strong>-Peak Season: Post-Ramadan, early and late
+              months{" "}
+            </li>
+            <li>
+              {" "}
+              <strong>Cost:</strong> More affordable, offering great value for
+              pilgrims
+            </li>
+          </ul>
+        </div>
+      </>
+    ),
+  },
+  {
+    id: 5,
+    title: "Which Places Will You Visit Duraing Ziarat?",
+    disc: (
+      <>
+        <p>
+          When you perform Umrah, your journey isn’t just about performing the
+          rituals in the holy cities—it’s also about visiting the sacred places
+          that hold immense historical and spiritual significance. Here are some
+          of the Ziyarat points you can visit as part of your Umrah tour
+          package:
+        </p>
+        <div>
+          <h2>In Makkah</h2>
+          <ul>
+            <li>
+              <strong>Gaar e Saur:</strong> The cave where the Prophet ﷺ and Abu
+              Bakr (RA) took refuge during Hijrah.
+            </li>
+            <li>
+              <strong>Jable Rahmat:</strong> The Mount of Mercy, where the
+              Prophet ﷺ delivered the Farewell Sermon during Hajj.
+            </li>
+            <li>
+              <strong>Nehr e Zubaida: </strong>A Historic water canal built by
+              Queen Zubaida to serve pilgrims in Makkah.
+            </li>
+            <li>
+              <strong>Waadi e Muzdalifa: </strong>The sacred valley where Hajj
+              pilgrims collect pebbles and spend the night.
+            </li>
+            <li>
+              <strong>Masjid e Mashar al Haram: </strong>A Masjid marking the
+              sacred site of Muzdalifa mentioned in the Qur’an.
+            </li>
+            <li>
+              <strong>Waadi e Mina:</strong> The valley of tents where Hajj
+              rituals like Rami (stoning) are performed.
+            </li>
+            <li>
+              <strong>Waadi e Muhassar: </strong> The cursed valley where the
+              Army of the Elephant was destroyed by divine wrath.
+            </li>
+            <li>
+              <strong>Maqam e Zibah e Ismaeel:</strong> Believed site of Prophet
+              Ibrahim’s (AS) sacrifice of his son Ismaeel (AS).
+            </li>
+            <li>
+              <strong>Masjid e Khaif: </strong>A Masjid where many Prophets are
+              said to have prayed in Mina.
+            </li>
+            <li>
+              <strong>Jamarat:</strong> The three stone pillars symbolizing
+              Shaytaan, stoned during Hajj.
+            </li>
+            <li>
+              <strong>Foothill of Gaar e Hira: </strong>Base of the mountain
+              where the Prophet ﷺ received the first revelation.
+            </li>
+            <li>
+              <strong>Masjid e Ijaba: </strong>Site where the Prophet ﷺ made
+              three powerful duas—two accepted, one withheld.
+            </li>
+            <li>
+              <strong>Jannatul Maala: </strong>Historic graveyard in Makkah
+              where Khadijah (RA) and many relatives of the Prophet ﷺ rest.
+            </li>
+            <li>
+              <strong>Masjid e Jinn: </strong>Marks the place where a group of
+              jinn accepted Islam at the hands of the Prophet ﷺ.
+            </li>
+            <li>
+              <strong>Masjid e Fatah: </strong>One of the sites associated with
+              the Conquest of Makkah.
+            </li>
+            <li>
+              <strong>Masjid e Shajarah: </strong>Site associated with the
+              miraculous testimony of a tree to the Prophethood.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>In Madina</h2>
+          <ul>
+            <li>
+              <strong>Masjid e Ghamama: </strong>Place where Prophet ﷺ offered
+              Eid salah and prayed for rain (Salat al-Istisqa).
+            </li>
+            <li>
+              <strong>Jannat ul Baqi: </strong>Sacred cemetery in Madinah where
+              many Sahabah and the family of the Prophet ﷺ are buried.
+            </li>
+            <li>
+              <strong>Ohud Mountain: </strong>Site of the historic Battle of
+              Uhud and the grave of many martyrs.
+            </li>
+            <li>
+              <strong>Sayyidna Amir Hamza’s grave: </strong>Final resting place
+              of the Prophet ﷺ’s beloved uncle and Uhud’s chief martyr.
+            </li>
+            <li>
+              <strong>Masjid e Quba: The </strong>First Masjid built in Islam,
+              personally laid by the Prophet Muhammad ﷺ.
+            </li>
+            <li>
+              <strong>Masjid e Qiblatain: </strong>The Masjid where the Qiblah
+              direction changed from Jerusalem to Makkah.
+            </li>
+            <li>
+              <strong>Saba Masajid: </strong>Seven historic mosques linked to
+              the Battle of the Trench and early Islamic history.
+            </li>
+            <li>
+              <strong>Salman Farsi Baug: </strong>Believed site of the trench
+              suggested by Salman Farsi (RA) during the Battle of Khandaq.
+            </li>
+          </ul>
+        </div>
+        <p>
+          Our customers trust us because we go above and beyond to deliver a seamless Umrah experience, combining exceptional service with genuine care. We take pride in our longstanding reputation of serving Hajjis across generations. Their parents and grandparents traveled with our founders, and now the current generation continues their journey with us for Umrah.        </p>
+      </>
+    ),
+  },
+  {
+    id: 6,
+    title: "Comprehensive Umrah Services",
+    disc: (
+      <>
+        <p>
+          Hijrat Tours & Travels is committed to making your Umrah pilgrimage as easy as possible. Our comprehensive Umrah services include:
+        </p>
+        <ul>
+          <li>
+              <strong>Visa Assistance</strong>: We handle all the paperwork and visa processing for you.
+            </li>
+            <li>
+              <strong>Flight and Hotel Bookings</strong>: We arrange affordable, comfortable, and convenient flight and hotel options as per your packages.
+            </li>
+            <li>
+              <strong>Transportation</strong>: Comfortable and reliable A/C transport throughout your journey.
+            </li>
+            <li>
+              <strong>Meals</strong>: Delicious and nutritious meals that cater to your Indian taste buds, freshly prepared for each time of the day, and served hot.
+            </li>
+            <li>
+              <strong>Guided Tours</strong>: Expert guides who will lead you through the religious sites and provide valuable insights.
+            </li>
+            <li>
+              <strong>24/7 Support</strong>: Our customer service team is available around the clock to assist with any concerns or queries.
+            </li>
+        </ul>
+        <div>
+          <h3>With Hijrat Tours, your Umrah pilgrimage is in safe hands, ensuring a hassle-free and spiritually enriching experience.</h3>
+          <p>The journey of Umrah is an incredibly spiritual experience, and Hijrat Tours & Travels is here to guide you every step of the way. Whether you are looking for cheap Umrah packages, luxury Umrah packages, or something in between, we have the perfect package for you. Book your Umrah tour package today and make the most of your pilgrimage. Trust Hijrat Tours Pvt. Ltd. to provide you with the best services, ensuring your journey to the holy lands is truly life-changing and memorable. For further information or to book your Umrah packages, visit our website or contact our team for personalized assistance.</p>
+        </div>
+      </>
+    ),
+  },
+  {
+    id: 7,
+    title: "Things to Do in Umrah",
+    disc: (
+      <>
+        <div>
+          <p>
+            When you travel for Umrah, there are several enriching activities
+            and experiences that you should not miss. These include:
+          </p>
+          <ul>
+            <li>
+              <strong>Tawaf</strong>: The central act of Umrah, where you
+              circumambulate the Kaaba seven times. Perform it at least twice a
+              day. Observe the crowd pattern and choose non-rush hours for
+              better comfort. Non-rush hours are normally around 8 am to 11 am
+              and after midnight.
+            </li>
+            <li>
+              <strong>Drink as much Zam Zam as possible: </strong>This holy
+              water cannot be carried in quantities back home and is difficult
+              to find back home, so make sure you drink as much as holy water as
+              possible while in Makkah and Madinah
+            </li>
+            <li>
+              <strong>Dua at the Multazam:</strong>The space between the door of
+              the Kaaba and the Black Stone, where prayers are answered. So make
+              dua each time you do tawaf.
+            </li>
+            <li>
+              Must try: Try to touch the kaaba at least once, and also pray two
+              rakat namaz in the Haram at least once. But if too crowded, then
+              do not attempt these, esp if you are a woman.
+            </li>
+            <li>
+              <strong>Praying in Masjid al-Haram</strong>: Offering prayers in
+              the holy mosque, where the reward for each prayer is multiplied.
+            </li>
+            <li>
+              <strong>Visiting the Prophet’s Mosque</strong>: In Madinah, you
+              can visit the Masjid al-Nabawi, where you can offer prayers and
+              pay your respects at the Roza Mubarak of the Holy Prophet Muhammad
+              (Salallahu Alaihi Wasallam).
+            </li>
+          </ul>
+        </div>
+        <p>
+          Your Umrah pilgrimage is more than just rituals—it’s a chance to
+          reconnect with your faith and make lasting memories of your journey to
+          the holy cities.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 8,
+    title: "Why Our Hajjis Recommend Bakhla Tours for Umrah",
+    disc: (
+      <>
+        <p>
+          At Hijrat Tours & Travels, our goal is to provide the best experience
+          for all our pilgrims. Here’s why people recommend Hijrat Tours for
+          Umrah{" "}
+        </p>
+        <ul>
+          <li>
+            <strong>Personalized Attention</strong>: We understand the unique
+            needs of every pilgrim, ensuring a personalized experience.
+          </li>
+          <li>
+            <strong>Affordable Pricing</strong>: We offer the{" "}
+            <strong>lowest-priced Umrah packages</strong> in every category
+            without compromising on comfort or quality.
+          </li>
+          <li>
+            <strong>Reliability</strong>: Our packages are designed with your
+            convenience and comfort in mind, ensuring a stress-free pilgrimage.
+          </li>
+          <li>
+            <strong>Experienced Team</strong>: Our knowledgeable staff provides
+            comprehensive support, from visa processing to travel arrangements
+            and stays in Makkah and Madina
+          </li>
+          <li>
+            <strong>Amazing food:</strong> We alhamdulillah have our Indian
+            chefs who carefully curate food as per the Indian taste buds so that
+            you can feel at Home Away from Home with rich Indian Flavours.
+          </li>
+          <li>
+            <strong>Guidance</strong>: We don’t just focus on the logistics; we
+            also provide guidance, helping you make the most of your journey.
+          </li>
+        </ul>
+
+        <p>
+          Our dedicated team will help you navigate every step of your Umrah
+          tour, from visa arrangements to accommodations and guided services, as
+          well as other essential requirements. Discover the sacredness of
+          Makkah and Madinah with Bakhla Tours & Travels Pvt. Ltd., and let us
+          guide you on this sacred path.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 9,
+    title: "Umrah Packages: A Spiritual Voyage with Bakhla Tours & Travels",
+    disc: (
+      <>
+        <p>
+          At Bakhla Tours & Travels, we understand that Umrah packages are more
+          than just a journey—it’s a profound spiritual experience that
+          transforms your heart and soul. Whether you are stepping into the
+          sacred lands for the first time or returning to renew your connection
+          with Allah, we’re here to make your pilgrimage effortless and
+          fulfilling. Our diverse range of Umrah packages offers flexibility,
+          comfort, and value, ensuring that your journey is as peaceful and
+          enriching as possible.
+        </p>
+        <p>
+          Our dedicated team will help you navigate every step of your Umrah
+          tour, from visa arrangements to accommodations and guided services, as
+          well as other essential requirements. Discover the sacredness of
+          Makkah and Madinah with Bakhla Tours & Travels Pvt. Ltd., and let us
+          guide you on this sacred path.
         </p>
       </>
     ),

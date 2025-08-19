@@ -10,6 +10,7 @@ import Button from "./Button";
 import Cards from "./Cards";
 import Faq from "./Faq";
 import Detail from "./Detail";
+import Brochure from "./Brochure";
 
 function HajjPackages() {
   return (
@@ -70,6 +71,7 @@ function HajjPackages() {
             </div>
           </div>
         </div>
+        {/* <Brochure /> */}
         <div>
           <Cards hajjPackagesCardData={hajjPackagesCardData} />
         </div>

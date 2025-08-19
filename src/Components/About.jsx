@@ -59,12 +59,6 @@ function About({ aboutData }) {
               })}
         </div>
       </div>
-      {/* <button
-        onClick={handleExpand}
-        className=" justify-self-center bg-amber-500 p-5"
-      >
-        {expand ? "view less" : "view more"}
-      </button> */}
 
       <Button
         text={expand ? "View Less" : "View More"}

@@ -3,7 +3,11 @@ import Hero from "./Hero";
 // import bgImg from "../Images/HeaderBG.avif";
 import bgImg from "../Images/hajjPackagesbg.jpeg";
 import Wrapper from "./Wrapper";
-import { hajjPackagesPageData, hajjPackagesCardData } from "../../data/Data";
+import {
+  hajjPackagesPageData,
+  hajjPackagesCardData,
+  faqData,
+} from "../../data/Data";
 import CustomCard from "./CustomCard";
 import Logo from "../Components/Logo";
 import Button from "./Button";
@@ -48,7 +52,7 @@ function HajjPackages() {
             return <CustomCard data={item} key={index} />;
           })}
         </div>
-        <div className=" py-10  border-y-1 border-y-[#e8d8bb]">
+        {/* <div className=" py-10  border-y-1 border-y-[#e8d8bb]">
           <div className="flex justify-around items-center py-10  bg-[#303030] rounded-lg shadow-2xl">
             <div className="flex">
               <Logo />
@@ -70,14 +74,19 @@ function HajjPackages() {
               <Button text={"Download Brochure"} textColor={"#ddb66a"} />
             </div>
           </div>
-        </div>
-        {/* <Brochure /> */}
+        </div> */}
+        <Brochure
+          header={"Hajj Package 2025 Brochure"}
+          para={
+            "Discover Hajj packages, pricing, and services. All in one well-organized PDF."
+          }
+        />
         <div>
           <Cards hajjPackagesCardData={hajjPackagesCardData} />
         </div>
         <Detail />
         {/* FAQ */}
-        <Faq />
+        <Faq data={faqData} />
       </Wrapper>
     </div>
   );

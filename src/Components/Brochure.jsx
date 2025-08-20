@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../Components/Logo";
 import Button from "./Button";
-function Brochure() {
+function Brochure({ header, para }) {
   return (
     <div>
       {" "}
@@ -16,12 +16,9 @@ function Brochure() {
           </div>
           <div>
             <h2 className="text-xl font-semibold font-serif text-[#ddb66a]">
-              Hajj Package 2025 Brochure
+              {header}
             </h2>
-            <p className=" font-serif text-[#e8d8bb]">
-              Discover Hajj packages, pricing, and services. All in one
-              well-organized PDF.
-            </p>
+            <p className=" font-serif text-[#e8d8bb]">{para}</p>
           </div>
           <div>
             <Button text={"Download Brochure"} textColor={"#ddb66a"} />

@@ -3,7 +3,7 @@ import { faqData } from "../../data/Data";
 import { FaMinus } from "react-icons/fa6";
 import { FiPlus } from "react-icons/fi";
 
-const Faq = () => {
+const Faq = ({ data }) => {
   const [currentIndex, setCurrentIndex] = useState(null);
 
   const handleFAQToggle = (index) => {
@@ -19,7 +19,7 @@ const Faq = () => {
             Frequently Asked Questions
           </h2>
           <ul className="space-y-4">
-            {faqData.map((item, index) => {
+            {data.map((item, index) => {
               const isOpen = currentIndex === index;
 
               return (

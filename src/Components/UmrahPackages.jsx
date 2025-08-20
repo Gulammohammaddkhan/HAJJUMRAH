@@ -1,14 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import Hero from "../Components/Hero";
 import bgImg from "../Images/umrahbg.avif";
 import Wrapper from "./Wrapper";
-import { umrahPackagesPageData } from "../../data/Data";
+import {
+  umrahPackagesPageData,
+  hajjPackagesCardData,
+  umrahDetailData,
+  umrahFaqData,
+} from "../../data/Data";
 import CustomCard from "./CustomCard";
 import Logo from "./Logo";
 import Button from "./Button";
 import Cards from "./Cards";
+import Brochure from "./Brochure";
+import { FaMinus } from "react-icons/fa6";
+import { FiMinus, FiPlus } from "react-icons/fi";
+import Faq from "./Faq";
 
 function UmrahPackages() {
+  // const [toggle, setToggle] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(null);
+
+  function clickHandler(id) {
+    // setToggle(!toggle);
+    setCurrentIndex(currentIndex === index ? null : index);
+  }
   return (
     <div id="umrahpackages">
       UmrahPackages
@@ -41,7 +57,7 @@ function UmrahPackages() {
             );
           })}
         </div>
-        <div className=" py-10  border-y-1 border-y-[#e8d8bb]">
+        {/* <div className=" py-10  border-y-1 border-y-[#e8d8bb]">
           <div className="flex justify-around items-center py-10  bg-[#303030] rounded-lg shadow-2xl">
             <div className="flex">
               <Logo />
@@ -63,9 +79,15 @@ function UmrahPackages() {
               <Button text={"Download Brochure"} textColor={"#ddb66a"} />
             </div>
           </div>
-        </div>
+          </div> */}
+        <Brochure
+          header={"Umrah Package 2025 Brochure"}
+          para={
+            " Download our Umrah Brochure – Complete Details on Packages & Pricing."
+          }
+        />
         <Cards hajjPackagesCardData={hajjPackagesCardData} />
-        <div className=" py-10  border-y-1 border-y-[#e8d8bb]">
+        {/* <div className=" py-10  border-y-1 border-y-[#e8d8bb]">
           <div className="flex justify-around items-center py-10  bg-[#303030] rounded-lg shadow-2xl">
             <div className="flex">
               <Logo />
@@ -91,16 +113,29 @@ function UmrahPackages() {
               </div>
             </div>
           </div>
-        </div>
-        <div>
-          {umrahDetailData.map((item, index) => {
+        </div> */}
+        <Brochure
+          header={"NOW OFFERING FLIGHTS FROM ALL MAJOR CITIES IN INDIA"}
+          para={
+            "DELHI|MUMBAI|BANGALORE|HYDERABAD|LUCKNOW|CHENNAI|SRINAGAR|KOLKATA & MANY MORE."
+          }
+        />
+        <div className="px-10 py-10 border-b-1 border-b-[#e8d8bb]">
+          {umrahDetailData.map((item, id) => {
             return (
-              <div key={index}>
-                <h2>{item.title}</h2>
-                <p>{item.disc}</p>
+              <div key={id}>
+                <h2 className="text-[#ddb66a] text-3xl font-semibold font-serif pb-4">
+                  {item.title}
+                </h2>
+                <p className="text-[#e8d8bb] text-md font-serif pb-4">
+                  {item.disc}
+                </p>
               </div>
             );
           })}
+        </div>
+        <div>
+          <Faq data={umrahFaqData} />
         </div>
       </Wrapper>
     </div>
@@ -108,3 +143,24 @@ function UmrahPackages() {
 }
 
 export default UmrahPackages;
+
+// {umrahFaqData.map((item, index) => {
+//               const isOpen = currentIndex === index;
+//               return (
+//                 <div className="bg-red-400">
+//                   <div className="flex justify-between pb-8">
+//                     <h2>{item.title}</h2>
+//                     <button onClick={() => clickHandler(index)}>
+//                       {isOpen ? <FiMinus /> : <FiPlus />}
+//                     </button>
+//                   </div>
+//                   <div
+//                     className={` transition-all duration-300 overflow-hidden ${
+//                       isOpen ? "max-h-[800px] p-4 pt-0" : "max-h-0"
+//                     }`}
+//                   >
+//                     <p>{item.para}</p>
+//                   </div>
+//                 </div>
+//               );
+//             })}

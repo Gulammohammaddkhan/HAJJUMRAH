@@ -63,6 +63,9 @@ import Umrahpg12 from "../src/Images/umrahpg12.jpg";
 import Umrahpg13 from "../src/Images/umrahpg13.jpg";
 import Umrahpg14 from "../src/Images/umrahpg14.jpg";
 import Umrahpg15 from "../src/Images/umrahpg15.jpg";
+import ramadanimg1 from "../src/Images/ramadanimg1.jpg";
+import ramadanimg2 from "../src/Images/ramadamimg2.jpg";
+import divImg from "../src/Images/divImg.jpg";
 
 export const navLinks = [
   {
@@ -1572,40 +1575,46 @@ export const umrahDetailData = [
         <ul>
           <li>
             {" "}
-            <strong>Trusted Expertise:</strong> With years of experience in
-            organizing Umrah tours, Hijrat Tours provides detailed attention to
-            your comfort and convenience.
+            <strong className="text-[#ddb66a]">Trusted Expertise:</strong> With
+            years of experience in organizing Umrah tours, Hijrat Tours provides
+            detailed attention to your comfort and convenience.
           </li>
           <li>
             {" "}
-            <strong>Budget Umrah packages:</strong> These tours are designed to
-            accommodate a range of financial plans, ensuring that everyone has
-            the opportunity to fulfill this spiritual obligation.
+            <strong className="text-[#ddb66a]">
+              Budget Umrah packages:
+            </strong>{" "}
+            These tours are designed to accommodate a range of financial plans,
+            ensuring that everyone has the opportunity to fulfill this spiritual
+            obligation.
           </li>
           <li>
             {" "}
-            <strong>Affordable Packages:</strong> All the packages are designed
-            keeping in mind the requirements of our Hajjis in the best possible
-            budget. At Hijrat Tours, we take pride in offering the most
-            competitive rates, making us the Best Umrah tour package provider.
-            Our commitment to providing the best value ensures you receive
-            exceptional service at unbeatable prices.
+            <strong className="text-[#ddb66a]">Affordable Packages:</strong> All
+            the packages are designed keeping in mind the requirements of our
+            Hajjis in the best possible budget. At Hijrat Tours, we take pride
+            in offering the most competitive rates, making us the Best Umrah
+            tour package provider. Our commitment to providing the best value
+            ensures you receive exceptional service at unbeatable prices.
           </li>
           <li>
             {" "}
-            <strong>Tailored Itineraries:</strong> Whether you’re seeking a
-            luxury Umrah package or a low-price Umrah package, we offer a range
-            of options to fit every need. Simply state your requirements to us,
-            and we will provide you with amazing deals accordingly.
+            <strong className="text-[#ddb66a]">
+              Tailored Itineraries:
+            </strong>{" "}
+            Whether you’re seeking a luxury Umrah package or a low-price Umrah
+            package, we offer a range of options to fit every need. Simply state
+            your requirements to us, and we will provide you with amazing deals
+            accordingly.
           </li>
           <li>
             {" "}
-            <strong>Ease and Convenience:</strong> We handle all the logistics,
-            from Umrah flight tickets to accommodation, transport, and visa
-            services, so you can focus entirely on your spiritual journey. Our
-            Umrah packages are designed to provide pilgrims with a hassle-free
-            and enriching all-inclusive pilgrimage experience, filled with peace
-            and devotion.
+            <strong className="text-[#ddb66a]">Ease and Convenience:</strong> We
+            handle all the logistics, from Umrah flight tickets to
+            accommodation, transport, and visa services, so you can focus
+            entirely on your spiritual journey. Our Umrah packages are designed
+            to provide pilgrims with a hassle-free and enriching all-inclusive
+            pilgrimage experience, filled with peace and devotion.
           </li>
         </ul>
       </>
@@ -1618,13 +1627,14 @@ export const umrahDetailData = [
       <>
         {" "}
         <p>
-          Hijrat Tours offers a variety of <strong>Umrah packages 2025</strong>{" "}
-          for all kinds of travelers. Whether you’re traveling as a couple, a
+          Hijrat Tours offers a variety of{" "}
+          <strong className="text-[#ddb66a]">Umrah packages 2025</strong> for
+          all kinds of travelers. Whether you’re traveling as a couple, a
           family, or in a group, our services are flexible to meet your unique
           needs.{" "}
         </p>
         <div>
-          <h2>Budget Umrah Packages</h2>
+          <h2 className="text-[#ddb66a]">Budget Umrah Packages</h2>
           <p>
             For those seeking an affordable experience, our budget Umrah
             packages offer essential services at a highly competitive price.
@@ -1637,7 +1647,7 @@ export const umrahDetailData = [
           </p>
         </div>
         <div>
-          <h2>Silver Umrah Package:</h2>
+          <h2 className="text-[#ddb66a]">Silver Umrah Package:</h2>
           <p>
             Our Silver Umrah Package strikes the perfect balance between comfort
             and affordability. Designed for pilgrims seeking a better level of
@@ -1649,7 +1659,7 @@ export const umrahDetailData = [
           </p>
         </div>
         <div>
-          <h2>Smart-Luxury Umrah Packages:</h2>
+          <h2 className="text-[#ddb66a]">Smart-Luxury Umrah Packages:</h2>
           <p>
             For those seeking a more indulgent experience, our Smart-Luxury Gold
             Umrah packages include hotels as close as a few short minutes walk
@@ -1660,7 +1670,7 @@ export const umrahDetailData = [
           </p>
         </div>
         <div>
-          <h2>Family Umrah Packages:</h2>
+          <h2 className="text-[#ddb66a]">Family Umrah Packages:</h2>
           <p>
             Our Umrah family packages are designed to offer a smooth experience
             for families. We understand the unique needs of families traveling
@@ -1699,7 +1709,7 @@ export const umrahDetailData = [
           packages to cater to every pilgrim’s needs.
         </p>
         <div>
-          <h3>High Season Umrah Packages:</h3>
+          <h3 className="text-[#ddb66a]">High Season Umrah Packages:</h3>
           <p>
             The high season for Umrah usually coincides with the Islamic months
             of Ramadan and immediately after hajj season ends, when pilgrims
@@ -1712,17 +1722,18 @@ export const umrahDetailData = [
           <ul>
             <li>
               {" "}
-              <strong>Peak Season:</strong> Ramadan and Dhul-Hijjah{" "}
+              <strong className="text-[#ddb66a]">Peak Season:</strong> Ramadan
+              and Dhul-Hijjah{" "}
             </li>
             <li>
               {" "}
-              <strong>Cost:</strong> Higher due to increased demand, but Hijrat
-              Tours ensures competitive pricing.{" "}
+              <strong className="text-[#ddb66a]">Cost:</strong> Higher due to
+              increased demand, but Hijrat Tours ensures competitive pricing.{" "}
             </li>
           </ul>
         </div>
         <div>
-          <h3>Low Season Umrah Packages:</h3>
+          <h3 className="text-[#ddb66a]">Low Season Umrah Packages:</h3>
           <p>
             If you prefer a quieter and more intimate experience, our low-season
             Umrah packages are ideal. This period generally falls outside
@@ -1733,13 +1744,13 @@ export const umrahDetailData = [
           <ul>
             <li>
               {" "}
-              <strong>Off</strong>-Peak Season: Post-Ramadan, early and late
-              months{" "}
+              <strong className="text-[#ddb66a]">Off</strong>-Peak Season:
+              Post-Ramadan, early and late months{" "}
             </li>
             <li>
               {" "}
-              <strong>Cost:</strong> More affordable, offering great value for
-              pilgrims
+              <strong className="text-[#ddb66a]">Cost:</strong> More affordable,
+              offering great value for pilgrims
             </li>
           </ul>
         </div>
@@ -1759,113 +1770,146 @@ export const umrahDetailData = [
           package:
         </p>
         <div>
-          <h2>In Makkah</h2>
+          <h2 className="text-[#ddb66a]">In Makkah</h2>
           <ul>
             <li>
-              <strong>Gaar e Saur:</strong> The cave where the Prophet ﷺ and Abu
-              Bakr (RA) took refuge during Hijrah.
+              <strong className="text-[#ddb66a]">Gaar e Saur:</strong> The cave
+              where the Prophet ﷺ and Abu Bakr (RA) took refuge during Hijrah.
             </li>
             <li>
-              <strong>Jable Rahmat:</strong> The Mount of Mercy, where the
-              Prophet ﷺ delivered the Farewell Sermon during Hajj.
+              <strong className="text-[#ddb66a]">Jable Rahmat:</strong> The
+              Mount of Mercy, where the Prophet ﷺ delivered the Farewell Sermon
+              during Hajj.
             </li>
             <li>
-              <strong>Nehr e Zubaida: </strong>A Historic water canal built by
-              Queen Zubaida to serve pilgrims in Makkah.
+              <strong className="text-[#ddb66a]">Nehr e Zubaida: </strong>A
+              Historic water canal built by Queen Zubaida to serve pilgrims in
+              Makkah.
             </li>
             <li>
-              <strong>Waadi e Muzdalifa: </strong>The sacred valley where Hajj
-              pilgrims collect pebbles and spend the night.
+              <strong className="text-[#ddb66a]">Waadi e Muzdalifa: </strong>The
+              sacred valley where Hajj pilgrims collect pebbles and spend the
+              night.
             </li>
             <li>
-              <strong>Masjid e Mashar al Haram: </strong>A Masjid marking the
-              sacred site of Muzdalifa mentioned in the Qur’an.
+              <strong className="text-[#ddb66a]">
+                Masjid e Mashar al Haram:{" "}
+              </strong>
+              A Masjid marking the sacred site of Muzdalifa mentioned in the
+              Qur’an.
             </li>
             <li>
-              <strong>Waadi e Mina:</strong> The valley of tents where Hajj
-              rituals like Rami (stoning) are performed.
+              <strong className="text-[#ddb66a]">Waadi e Mina:</strong> The
+              valley of tents where Hajj rituals like Rami (stoning) are
+              performed.
             </li>
             <li>
-              <strong>Waadi e Muhassar: </strong> The cursed valley where the
-              Army of the Elephant was destroyed by divine wrath.
+              <strong className="text-[#ddb66a]">Waadi e Muhassar: </strong> The
+              cursed valley where the Army of the Elephant was destroyed by
+              divine wrath.
             </li>
             <li>
-              <strong>Maqam e Zibah e Ismaeel:</strong> Believed site of Prophet
-              Ibrahim’s (AS) sacrifice of his son Ismaeel (AS).
+              <strong className="text-[#ddb66a]">
+                Maqam e Zibah e Ismaeel:
+              </strong>{" "}
+              Believed site of Prophet Ibrahim’s (AS) sacrifice of his son
+              Ismaeel (AS).
             </li>
             <li>
-              <strong>Masjid e Khaif: </strong>A Masjid where many Prophets are
-              said to have prayed in Mina.
+              <strong className="text-[#ddb66a]">Masjid e Khaif: </strong>A
+              Masjid where many Prophets are said to have prayed in Mina.
             </li>
             <li>
-              <strong>Jamarat:</strong> The three stone pillars symbolizing
-              Shaytaan, stoned during Hajj.
+              <strong className="text-[#ddb66a]">Jamarat:</strong> The three
+              stone pillars symbolizing Shaytaan, stoned during Hajj.
             </li>
             <li>
-              <strong>Foothill of Gaar e Hira: </strong>Base of the mountain
-              where the Prophet ﷺ received the first revelation.
+              <strong className="text-[#ddb66a]">
+                Foothill of Gaar e Hira:{" "}
+              </strong>
+              Base of the mountain where the Prophet ﷺ received the first
+              revelation.
             </li>
             <li>
-              <strong>Masjid e Ijaba: </strong>Site where the Prophet ﷺ made
-              three powerful duas—two accepted, one withheld.
+              <strong className="text-[#ddb66a]">Masjid e Ijaba: </strong>Site
+              where the Prophet ﷺ made three powerful duas—two accepted, one
+              withheld.
             </li>
             <li>
-              <strong>Jannatul Maala: </strong>Historic graveyard in Makkah
-              where Khadijah (RA) and many relatives of the Prophet ﷺ rest.
+              <strong className="text-[#ddb66a]">Jannatul Maala: </strong>
+              Historic graveyard in Makkah where Khadijah (RA) and many
+              relatives of the Prophet ﷺ rest.
             </li>
             <li>
-              <strong>Masjid e Jinn: </strong>Marks the place where a group of
-              jinn accepted Islam at the hands of the Prophet ﷺ.
+              <strong className="text-[#ddb66a]">Masjid e Jinn: </strong>Marks
+              the place where a group of jinn accepted Islam at the hands of the
+              Prophet ﷺ.
             </li>
             <li>
-              <strong>Masjid e Fatah: </strong>One of the sites associated with
-              the Conquest of Makkah.
+              <strong className="text-[#ddb66a]">Masjid e Fatah: </strong>One of
+              the sites associated with the Conquest of Makkah.
             </li>
             <li>
-              <strong>Masjid e Shajarah: </strong>Site associated with the
-              miraculous testimony of a tree to the Prophethood.
+              <strong className="text-[#ddb66a]">Masjid e Shajarah: </strong>
+              Site associated with the miraculous testimony of a tree to the
+              Prophethood.
             </li>
           </ul>
         </div>
         <div>
-          <h2>In Madina</h2>
+          <h2 className="text-[#ddb66a]">In Madina</h2>
           <ul>
             <li>
-              <strong>Masjid e Ghamama: </strong>Place where Prophet ﷺ offered
-              Eid salah and prayed for rain (Salat al-Istisqa).
+              <strong className="text-[#ddb66a]">Masjid e Ghamama: </strong>
+              Place where Prophet ﷺ offered Eid salah and prayed for rain (Salat
+              al-Istisqa).
             </li>
             <li>
-              <strong>Jannat ul Baqi: </strong>Sacred cemetery in Madinah where
-              many Sahabah and the family of the Prophet ﷺ are buried.
+              <strong className="text-[#ddb66a]">Jannat ul Baqi: </strong>Sacred
+              cemetery in Madinah where many Sahabah and the family of the
+              Prophet ﷺ are buried.
             </li>
             <li>
-              <strong>Ohud Mountain: </strong>Site of the historic Battle of
-              Uhud and the grave of many martyrs.
+              <strong className="text-[#ddb66a]">Ohud Mountain: </strong>Site of
+              the historic Battle of Uhud and the grave of many martyrs.
             </li>
             <li>
-              <strong>Sayyidna Amir Hamza’s grave: </strong>Final resting place
-              of the Prophet ﷺ’s beloved uncle and Uhud’s chief martyr.
+              <strong className="text-[#ddb66a]">
+                Sayyidna Amir Hamza’s grave:{" "}
+              </strong>
+              Final resting place of the Prophet ﷺ’s beloved uncle and Uhud’s
+              chief martyr.
             </li>
             <li>
-              <strong>Masjid e Quba: The </strong>First Masjid built in Islam,
-              personally laid by the Prophet Muhammad ﷺ.
+              <strong className="text-[#ddb66a]">Masjid e Quba: The </strong>
+              First Masjid built in Islam, personally laid by the Prophet
+              Muhammad ﷺ.
             </li>
             <li>
-              <strong>Masjid e Qiblatain: </strong>The Masjid where the Qiblah
-              direction changed from Jerusalem to Makkah.
+              <strong className="text-[#ddb66a]">Masjid e Qiblatain: </strong>
+              The Masjid where the Qiblah direction changed from Jerusalem to
+              Makkah.
             </li>
             <li>
-              <strong>Saba Masajid: </strong>Seven historic mosques linked to
-              the Battle of the Trench and early Islamic history.
+              <strong className="text-[#ddb66a]">Saba Masajid: </strong>Seven
+              historic mosques linked to the Battle of the Trench and early
+              Islamic history.
             </li>
             <li>
-              <strong>Salman Farsi Baug: </strong>Believed site of the trench
-              suggested by Salman Farsi (RA) during the Battle of Khandaq.
+              <strong className="text-[#ddb66a]">Salman Farsi Baug: </strong>
+              Believed site of the trench suggested by Salman Farsi (RA) during
+              the Battle of Khandaq.
             </li>
           </ul>
         </div>
         <p>
-          Our customers trust us because we go above and beyond to deliver a seamless Umrah experience, combining exceptional service with genuine care. We take pride in our longstanding reputation of serving Hajjis across generations. Their parents and grandparents traveled with our founders, and now the current generation continues their journey with us for Umrah.        </p>
+          Our customers trust us because we go above and beyond to deliver a
+          seamless Umrah experience, combining exceptional service with genuine
+          care. We take pride in our longstanding reputation of serving Hajjis
+          across generations. Their parents and grandparents traveled with our
+          founders, and now the current generation continues their journey with
+          us for Umrah.{" "}
+        </p>
       </>
     ),
   },
@@ -1875,31 +1919,58 @@ export const umrahDetailData = [
     disc: (
       <>
         <p>
-          Hijrat Tours & Travels is committed to making your Umrah pilgrimage as easy as possible. Our comprehensive Umrah services include:
+          Hijrat Tours & Travels is committed to making your Umrah pilgrimage as
+          easy as possible. Our comprehensive Umrah services include:
         </p>
         <ul>
           <li>
-              <strong>Visa Assistance</strong>: We handle all the paperwork and visa processing for you.
-            </li>
-            <li>
-              <strong>Flight and Hotel Bookings</strong>: We arrange affordable, comfortable, and convenient flight and hotel options as per your packages.
-            </li>
-            <li>
-              <strong>Transportation</strong>: Comfortable and reliable A/C transport throughout your journey.
-            </li>
-            <li>
-              <strong>Meals</strong>: Delicious and nutritious meals that cater to your Indian taste buds, freshly prepared for each time of the day, and served hot.
-            </li>
-            <li>
-              <strong>Guided Tours</strong>: Expert guides who will lead you through the religious sites and provide valuable insights.
-            </li>
-            <li>
-              <strong>24/7 Support</strong>: Our customer service team is available around the clock to assist with any concerns or queries.
-            </li>
+            <strong className="text-[#ddb66a]">Visa Assistance</strong>: We
+            handle all the paperwork and visa processing for you.
+          </li>
+          <li>
+            <strong className="text-[#ddb66a]">
+              Flight and Hotel Bookings
+            </strong>
+            : We arrange affordable, comfortable, and convenient flight and
+            hotel options as per your packages.
+          </li>
+          <li>
+            <strong className="text-[#ddb66a]">Transportation</strong>:
+            Comfortable and reliable A/C transport throughout your journey.
+          </li>
+          <li>
+            <strong className="text-[#ddb66a]">Meals</strong>: Delicious and
+            nutritious meals that cater to your Indian taste buds, freshly
+            prepared for each time of the day, and served hot.
+          </li>
+          <li>
+            <strong className="text-[#ddb66a]">Guided Tours</strong>: Expert
+            guides who will lead you through the religious sites and provide
+            valuable insights.
+          </li>
+          <li>
+            <strong className="text-[#ddb66a]">24/7 Support</strong>: Our
+            customer service team is available around the clock to assist with
+            any concerns or queries.
+          </li>
         </ul>
         <div>
-          <h3>With Hijrat Tours, your Umrah pilgrimage is in safe hands, ensuring a hassle-free and spiritually enriching experience.</h3>
-          <p>The journey of Umrah is an incredibly spiritual experience, and Hijrat Tours & Travels is here to guide you every step of the way. Whether you are looking for cheap Umrah packages, luxury Umrah packages, or something in between, we have the perfect package for you. Book your Umrah tour package today and make the most of your pilgrimage. Trust Hijrat Tours Pvt. Ltd. to provide you with the best services, ensuring your journey to the holy lands is truly life-changing and memorable. For further information or to book your Umrah packages, visit our website or contact our team for personalized assistance.</p>
+          <h3 className="text-[#ddb66a]">
+            With Hijrat Tours, your Umrah pilgrimage is in safe hands, ensuring
+            a hassle-free and spiritually enriching experience.
+          </h3>
+          <p>
+            The journey of Umrah is an incredibly spiritual experience, and
+            Hijrat Tours & Travels is here to guide you every step of the way.
+            Whether you are looking for cheap Umrah packages, luxury Umrah
+            packages, or something in between, we have the perfect package for
+            you. Book your Umrah tour package today and make the most of your
+            pilgrimage. Trust Hijrat Tours Pvt. Ltd. to provide you with the
+            best services, ensuring your journey to the holy lands is truly
+            life-changing and memorable. For further information or to book your
+            Umrah packages, visit our website or contact our team for
+            personalized assistance.
+          </p>
         </div>
       </>
     ),
@@ -1916,22 +1987,24 @@ export const umrahDetailData = [
           </p>
           <ul>
             <li>
-              <strong>Tawaf</strong>: The central act of Umrah, where you
-              circumambulate the Kaaba seven times. Perform it at least twice a
-              day. Observe the crowd pattern and choose non-rush hours for
-              better comfort. Non-rush hours are normally around 8 am to 11 am
-              and after midnight.
+              <strong className="text-[#ddb66a]">Tawaf</strong>: The central act
+              of Umrah, where you circumambulate the Kaaba seven times. Perform
+              it at least twice a day. Observe the crowd pattern and choose
+              non-rush hours for better comfort. Non-rush hours are normally
+              around 8 am to 11 am and after midnight.
             </li>
             <li>
-              <strong>Drink as much Zam Zam as possible: </strong>This holy
-              water cannot be carried in quantities back home and is difficult
-              to find back home, so make sure you drink as much as holy water as
-              possible while in Makkah and Madinah
+              <strong className="text-[#ddb66a]">
+                Drink as much Zam Zam as possible:{" "}
+              </strong>
+              This holy water cannot be carried in quantities back home and is
+              difficult to find back home, so make sure you drink as much as
+              holy water as possible while in Makkah and Madinah
             </li>
             <li>
-              <strong>Dua at the Multazam:</strong>The space between the door of
-              the Kaaba and the Black Stone, where prayers are answered. So make
-              dua each time you do tawaf.
+              <strong className="text-[#ddb66a]">Dua at the Multazam:</strong>
+              The space between the door of the Kaaba and the Black Stone, where
+              prayers are answered. So make dua each time you do tawaf.
             </li>
             <li>
               Must try: Try to touch the kaaba at least once, and also pray two
@@ -1939,14 +2012,19 @@ export const umrahDetailData = [
               do not attempt these, esp if you are a woman.
             </li>
             <li>
-              <strong>Praying in Masjid al-Haram</strong>: Offering prayers in
-              the holy mosque, where the reward for each prayer is multiplied.
+              <strong className="text-[#ddb66a]">
+                Praying in Masjid al-Haram
+              </strong>
+              : Offering prayers in the holy mosque, where the reward for each
+              prayer is multiplied.
             </li>
             <li>
-              <strong>Visiting the Prophet’s Mosque</strong>: In Madinah, you
-              can visit the Masjid al-Nabawi, where you can offer prayers and
-              pay your respects at the Roza Mubarak of the Holy Prophet Muhammad
-              (Salallahu Alaihi Wasallam).
+              <strong className="text-[#ddb66a]">
+                Visiting the Prophet’s Mosque
+              </strong>
+              : In Madinah, you can visit the Masjid al-Nabawi, where you can
+              offer prayers and pay your respects at the Roza Mubarak of the
+              Holy Prophet Muhammad (Salallahu Alaihi Wasallam).
             </li>
           </ul>
         </div>
@@ -1970,31 +2048,35 @@ export const umrahDetailData = [
         </p>
         <ul>
           <li>
-            <strong>Personalized Attention</strong>: We understand the unique
-            needs of every pilgrim, ensuring a personalized experience.
+            <strong className="text-[#ddb66a]">Personalized Attention</strong>:
+            We understand the unique needs of every pilgrim, ensuring a
+            personalized experience.
           </li>
           <li>
-            <strong>Affordable Pricing</strong>: We offer the{" "}
-            <strong>lowest-priced Umrah packages</strong> in every category
-            without compromising on comfort or quality.
+            <strong className="text-[#ddb66a]">Affordable Pricing</strong>: We
+            offer the <strong>lowest-priced Umrah packages</strong> in every
+            category without compromising on comfort or quality.
           </li>
           <li>
-            <strong>Reliability</strong>: Our packages are designed with your
-            convenience and comfort in mind, ensuring a stress-free pilgrimage.
+            <strong className="text-[#ddb66a]">Reliability</strong>: Our
+            packages are designed with your convenience and comfort in mind,
+            ensuring a stress-free pilgrimage.
           </li>
           <li>
-            <strong>Experienced Team</strong>: Our knowledgeable staff provides
-            comprehensive support, from visa processing to travel arrangements
-            and stays in Makkah and Madina
+            <strong className="text-[#ddb66a]">Experienced Team</strong>: Our
+            knowledgeable staff provides comprehensive support, from visa
+            processing to travel arrangements and stays in Makkah and Madina
           </li>
           <li>
-            <strong>Amazing food:</strong> We alhamdulillah have our Indian
-            chefs who carefully curate food as per the Indian taste buds so that
-            you can feel at Home Away from Home with rich Indian Flavours.
+            <strong className="text-[#ddb66a]">Amazing food:</strong> We
+            alhamdulillah have our Indian chefs who carefully curate food as per
+            the Indian taste buds so that you can feel at Home Away from Home
+            with rich Indian Flavours.
           </li>
           <li>
-            <strong>Guidance</strong>: We don’t just focus on the logistics; we
-            also provide guidance, helping you make the most of your journey.
+            <strong className="text-[#ddb66a]">Guidance</strong>: We don’t just
+            focus on the logistics; we also provide guidance, helping you make
+            the most of your journey.
           </li>
         </ul>
 
@@ -2029,6 +2111,291 @@ export const umrahDetailData = [
           well as other essential requirements. Discover the sacredness of
           Makkah and Madinah with Bakhla Tours & Travels Pvt. Ltd., and let us
           guide you on this sacred path.
+        </p>
+      </>
+    ),
+  },
+];
+
+export const umrahFaqData = [
+  {
+    id: 1,
+    title: "How much does an Umrah package cost?",
+    para: "The cost of an Umrah package depends on the type of package you choose. Our budget packages start at INR 65,500, while Smart-luxury packages start at INR 105,000. Contact our sales team for the latest prices and updates and best deals, and amazing offers.",
+  },
+  {
+    id: 2,
+    title: "Can I book a 15-day Umrah package?",
+    para: "Yes, we offer 15-day Umrah packages that include accommodation, flights, transport, meals, guided tours, and much more. All our packages are all-inclusive packages with everything that you need for an Umrah Journey to Makkah.",
+  },
+  {
+    id: 3,
+    title: "Are the prices of Umrah packages flexible?",
+    para: "Yes, we offer a range of Umrah packages to suit different budgets and requirements. You can choose between budget and luxury options based on your preferences. Get in touch with our sales team for the latest pricing, exclusive deals, and amazing offers.",
+  },
+  {
+    id: 4,
+    title: "Do you offer group Umrah packages?",
+    para: "Yes, we offer customized group Umrah packages for families, friends, or organizations looking to travel together. Also, we offer great deals on our all-inclusive packages for big groups. Reach out to our sales team for the most up-to-date prices, special deals, and incredible offers.",
+  },
+];
+
+export const ramadanCardData = [
+  {
+    img: ramadanimg1,
+    title: "RAMADAN UMRAH 2025 GOLD PACKAGE – (WITH AIR TICKETS)",
+    hotels: [
+      {
+        hotelLocation: "Makkah :",
+        hotelName: "  Snood Ajyad",
+      },
+      { hotelLocation: "Madina :", hotelName: " Odst Al Madinah" },
+      { hotelLocation: "Eid :", hotelName: " Eid in Madina" },
+    ],
+    rate: "₹ 1,08,500",
+    days: "15 nights",
+  },
+  {
+    img: ramadanimg2,
+    title: "RAMADAN UMRAH 2025 GOLD PACKAGE – (WITH AIR TICKETS)",
+    hotels: [
+      {
+        hotelLocation: "Makkah :",
+        hotelName: "  Snood Ajyad",
+      },
+      { hotelLocation: "Madina :", hotelName: " Odst Al Madinah" },
+      { hotelLocation: "Eid :", hotelName: " Eid in Madina" },
+    ],
+    rate: "₹ 1,08,500",
+    days: "15 nights",
+  },
+];
+
+export const ramadanDetailData = [
+  {
+    id: 1,
+    title: "Umrah Packages: A Spiritual Voyage with Bakhla Tours & Travels",
+    disc: (
+      <div className="flex flex-col justify-center items-center">
+        <h2 className=" py-4 text-[#ddb66a] text-xl">Ramadan Umrah Package</h2>
+        <p>
+          Ramadan is the holiest month of all the months in Islam. Performing an{" "}
+          <Link className="text-[#ddb66a]" to={"/hajjpackages"}>
+            Umrah
+          </Link>{" "}
+          in the month of Ramadan is equivalent to the rewards of hajj. There
+          are many hadith on performing Umrah in Ramadan explaining its
+          importance and advantages. The difference between Ramadan{" "}
+          <Link className="text-[#ddb66a]" to={"/umrahpackages"}>
+            Umrah Package
+          </Link>
+          and
+          <Link className="text-[#ddb66a]" to={"/hajjpackages"}>
+            Hajj package
+          </Link>{" "}
+          is that Hajj can be performed only in the 5 days of Zill-Hijjah and
+          Umrah can be performed anytime during the month of Ramadan.
+        </p>
+        <p>
+          According to the Hadith Muslims who perform good deeds in the month of
+          Ramadan are awarded seventy times more than on any normal day. The
+          above statement shows the importance of doing any good deed then why
+          not perform Umrah and get rewards that one gets in Hajj. Traveling in
+          the month of Ramadan will be full of challenges and hence you might
+          need the best travel agency in Hajj and Umrah industry which is Bakhla
+          Tours & Travels Pvt. Ltd. Bakhla Tours has been handing over the Best
+          Umrah and Ramadan Umrah Packages for Indian pilgrims for the last 30
+          years.
+        </p>
+      </div>
+    ),
+  },
+  {
+    id: 2,
+    title: "Different types of Ramadan Umrah Package",
+    disc: (
+      <>
+        <div className="flex flex-col justify-center items-center  ">
+          <h2 className="text-[#ddb66a] py-3 text-xl">
+            Shabaan Ramadan Umrah Tour
+          </h2>
+          <p>
+            This tour is a moderate-ranged Ramadaan Umrah Package. Pilgrims
+            leave for the religious journey in the month of Shabaan and stay in
+            the holy city of Makkah for 7 days and the rest 7 days in Madinah.
+            The Shabaan-Ramadan Umrah is affordable as before Ramadan it is
+            considered as off-season and Ramadan is a very peak season for Umrah
+            hence the package cost get balanced.
+          </p>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+          <h2 className="text-[#ddb66a] py-3 text-xl">
+            Last 15 Days Ramadan Umrah
+          </h2>
+          <p>
+            The Last 15 days packages of Ramazan is the most popular package.
+            Pilgrims usually want to spend the last fifteen days of fasting in
+            the holy cities of Makkah and Madinah. The first half of the tour
+            that is the first 7 days of the holy month is spent in Makkah and
+            the second half is spent in Madinah. For best{" "}
+            <Link className="text-[#ddb66a]" to={"/umrahpackages"}>
+              Umrah Packages
+            </Link>{" "}
+            click on the blue link.
+          </p>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+          <h2 className="text-[#ddb66a] py-3 text-xl">
+            Last 20 Days Ramadan Umrah Package
+          </h2>
+          <p>
+            Similar to the fifteen days package there is a twenty days package
+            of Ramadan Umrah as well. Pilgrims who would like to stay longer in
+            the holy cities have suggested this package. The Second Ashra of the
+            holy month of Ramadan is spent in Makkah as pilgrims can perform
+            Umrah with all their strength and their heart. The Last Ashra is
+            spent in the beautiful and the best city which is Madinah and Eid is
+            celebrated by the pilgrims in their own city.
+          </p>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+          <h2 className="text-[#ddb66a] py-3 text-xl">Full Month Ramadan</h2>
+          <p>
+            Pilgrims can perform Umrah in Ramadan and stay in Makkah and Madinah
+            for the whole month. The whole month is divided into twenty days and
+            the last ten days. If the first twenty days of Ramazan is spent in
+            Makkah Then Eid will be celebrated in Madinah this is the most
+            common package irtenary which is easily affordable. While some
+            pilgrims demand celebrating Eid in Makkah which is quite costly.
+            During the last ten days of Ramazan prices of everything is on the
+            top as it is the most peak time of the whole Umrah season.
+          </p>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+          <h2 className="text-[#ddb66a] py-3 text-xl">
+            Customized Ramadan Umrah Tour
+          </h2>
+          <p>
+            <Link className="text-[#ddb66a]" to={"/umrahpackages"}>
+              Customized Umrah package
+            </Link>{" "}
+            is suggested only for the pilgrims who have been familiar with
+            performing Umrah before. Customizing Ramadan Umrah Packages can be
+            very easily done with the help of Bakhla Tours & Travels Pvt. Ltd.,
+            We provide the pilgrims all facilities which are required in a
+            complete tour package. A package that is customized will include
+            everything according to your convenience and budget. Hotels,
+            transport, and food everything will be private for you and your
+            family only. This can be a{" "}
+            <strong className="text-[#ddb66a]">
+              VIP Ramadan Umrah Package
+            </strong>{" "}
+            if you have the right budget to spend with our assistance.
+          </p>
+          <img src={divImg} className="w-full h-full py-4" />
+        </div>
+      </>
+    ),
+  },
+  {
+    id: 3,
+    title:
+      "Why Bakhla Tours & Travels Pvt. Ltd. is superior to other Travel agencies?",
+    disc: (
+      <>
+        <p>
+          A Ramadan Umrah Package should be a complete pilgrimage travel
+          package. When you plan for Ramadan Umrah Tour Package you are looking
+          for the best facilities. Here at Bakhla Tours, we are glad to announce
+          that we provide you with an all-in Ramadan{" "}
+          <Link className="text-[#ddb66a]" to={"/umrahpackages"}>
+            Umrah Package
+          </Link>{" "}
+          for you and your companions, in which we provide almost everything
+          like hotels, transportation, flight tickets, iftaar arrangements for
+          the pilgrims, visa, and all the other important factors.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 4,
+    title: "Best Accommodations in Ramadan Umrah Package ",
+    disc: (
+      <>
+        <p>
+          Accommodations in any travel package are a very crucial aspect. Every
+          pilgrim is mainly concerned about the type of accommodations provided
+          by the travel agency. Bakhla Tours gets the best prices of the finest
+          hotels in Makkah and Madinah for its pilgrims. We have a variety of
+          hotels ranging from VIP hotels to different star categories. As we get
+          the best rates for the hotels in Makkah and Madinah we can release
+          competitive package prices of{" "}
+          <Link className="text-[#ddb66a]" to={"/umrahpackages"}>
+            Umrah Tour
+          </Link>
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 5,
+    title: "Affordable Flights, Visa, and Transportation",
+    disc: (
+      <>
+        <p>
+          Having experience of more than 30 years in the{" "}
+          <Link className="text-[#ddb66a]" to={"/hajjpackages"}>
+            Umrah Tour
+          </Link>{" "}
+          industry has its own perks. We can get you fast visa approvals from
+          the Saudi consulate. Serving pilgrims with the best services according
+          to their package has earned us a very good reputation in the market.
+          Our well-known reputation has its reflection on the airline industry
+          as we purchase the finest flight tickets for our pilgrims in huge
+          quantities. We can get you business class flight tickets at a very
+          affordable price. Transport will be provided to you anywhere in Saudi
+          Arabia. We can arrange any kind of transport for our pilgrims.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 6,
+    title: "Fascinating Cuisine",
+    disc: (
+      <>
+        <p>
+          Food will not at all be a problem for you if you are traveling to
+          Umrah or{" "}
+          <Link className="text-[#ddb66a]" to={"/hajjpackages"}>
+            Hajj
+          </Link>{" "}
+          with Hijrat Tours. Providing the best quality and taste of food to our
+          pilgrims are some of the important objectives of our company. We have
+          a professional team of chefs with us who will provide you with the
+          best Indian food at the Umrah or
+          <Link className="text-[#ddb66a]" to={"/hajjpackages"}>
+            Hajj Tour
+          </Link>
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 7,
+    title: "Value For Money Packages",
+    disc: (
+      <>
+        <p>
+          Bakhla Tours will hand over you the best package. We guarantee that we
+          along with our team could carve out for you the best Umrah and{" "}
+          <Link className="text-[#ddb66a]" to={"/hajjpackages"}>
+            Hajj Tour packages
+          </Link>{" "}
+          from Mumbai, Ahmedabad, Kashmir, Chennai, Hyderabad, and Bangalore or
+          from anywhere in India. Call / Whatsapp Us on :{" "}
+          <strong className="text-[#ddb66a]">+917977199070</strong>
         </p>
       </>
     ),

@@ -66,6 +66,22 @@ import Umrahpg15 from "../src/Images/umrahpg15.jpg";
 import ramadanimg1 from "../src/Images/ramadanimg1.jpg";
 import ramadanimg2 from "../src/Images/ramadamimg2.jpg";
 import divImg from "../src/Images/divImg.jpg";
+import affair from "../src/Images/affairs.avif";
+import bus from "../src/Images/bus.avif";
+import cash from "../src/Images/cash.avif";
+import customize from "../src/Images/customize.jpg";
+import faith from "../src/Images/faith.avif";
+import group from "../src/Images/group.jpg";
+import hotel from "../src/Images/hotel.avif";
+import hours from "../src/Images/hours.avif";
+import personal from "../src/Images/personal.avif";
+import rewards from "../src/Images/rewards.avif";
+import service from "../src/Images/service.avif";
+import universal from "../src/Images/universal.avif";
+import ibadat from "../src/Images/ibadat.jpg";
+import comprehensive from "../src/Images/comprehensive.jpg";
+import logo from "../src/Images/hijratLogo1.png";
+import shoda from "../src/Images/shoda.avif";
 
 export const navLinks = [
   {
@@ -2398,6 +2414,405 @@ export const ramadanDetailData = [
           <strong className="text-[#ddb66a]">+917977199070</strong>
         </p>
       </>
+    ),
+  },
+];
+export const ziyaratDetailData = [
+  {
+    id: 1,
+    title: "Baghdad Ziyarat Packages",
+    disc: (
+      <div>
+        <p>
+          Join the Spiritual fleet to Baghdad with a special range of Baghdad
+          Ziyarat tour packages by Hijrat Tours and Travels in the celebratory
+          11vi Shareef.
+        </p>
+        <p>
+          Ghaus al-Azam Dastageer, the Sultan al-Awliya, is a Highly esteemed
+          and prominent figure in Islam. He was honoured with the title of
+          “Muhiyuddin”, meaning “Reviver of the Religion.” Also well known to be
+          a man with a wasi heart (i.e. a gracious person, who always helps
+          whoever comes to him in need). His spiritual status is so elevated
+          that those who invoke his name for help, find immediate guidance. A
+          blessing that will persist until the day of resurrection for all his
+          believers. Devotees of Ghaus Paak seize every opportunity to visit his
+          shrine and the holy city of Baghdad, especially during the 11vi
+          Shareef celebrations.
+        </p>
+        <p>
+          {" "}
+          In recognition of the deep devotion to Ghaus al-Azam Dastageer,{" "}
+          <Link className="text-[#ddb66a]" to={"/"}>
+            Hijrat Tours and Travels Pvt. Ltd.
+          </Link>
+          has launched a special range for Baghdad Ziyarat Packages 2024. These
+          packages are designed to facilitate visits to his shrine at affordable
+          prices while ensuring comfortable and classy accommodations. Our
+          pilgrim’s comfort and necessities are all kept in mind to make sure
+          that clients have everything that they need from basic necessities to
+          classy luxurious amenities, we have it all covered to suit various
+          preferences and budgets. We are dedicated to offering exceptional
+          Ziyarat all-inclusive packages that meet all your spiritual and travel
+          needs, ensuring a memorable and enriching experience.
+        </p>
+        <h3 className="text-[#ddb66a]">
+          {" "}
+          We offer three distinct Categories in Baghdad packages:
+        </h3>
+        <ol>
+          <li>
+            {" "}
+            <strong className="text-[#ddb66a]">Silver Baghdad Packages</strong>
+          </li>
+          <li>
+            {" "}
+            <strong className="text-[#ddb66a]">Gold Baghdad Packages </strong>
+          </li>
+          <li>
+            <strong className="text-[#ddb66a]">
+              Platinum Baghdad Packages
+            </strong>
+          </li>
+        </ol>
+        <p>
+          These packages provide an enriching journey to Baghdad, Najaf, and
+          Karbala. A unique opportunity for Muslims wanting to visit the shrine
+          of Ghaus al-Azam Dastageer (Abdul Qadir Gilani, the Hanbali scholar)
+          and other significant religious sites in the holy cities of Iraq.
+          These year-round available Iraq ziarat packages allow pilgrims to
+          connect deeply with beloved Gaus Al Azam Dastageer and his history
+          first-hand.
+        </p>
+      </div>
+    ),
+  },
+  {
+    id: 2,
+    title: "Which Ziyarat places are included in Baghdad Ziyarat Packages?",
+    disc: (
+      <div>
+        <p>
+          Baghdad Sharif Packages are meticulously planned to ensure you make
+          the most of your spiritual journey.
+          <strong className="text-[#ddb66a] py-2">
+            Here is a list of our Ziyarat itinerary:
+          </strong>
+        </p>
+        <div>
+          <h3 className="text-[#ddb66a] text-2xl font-semibold py-2">
+            72 Sohda-e-Ikraam:
+          </h3>
+          <h4 className="text-[#ddb66a] py-2">BAGHDAD ZIYARAT</h4>
+          <ol>
+            <li>★ Hazrat Sheikh Abdul Qadir Jeelani</li>
+            <li>★ Hazrat Sheikh Abdul Jabbar Jeelani</li>
+            <li>★ Hazrat Sheikh Abu Saleh Jeelani</li>
+            <li>★ Hazrat Imam e Azam Abu Hanifa</li>
+            <li>★ Hazrat Imam Ghazali</li>
+            <li>★ Hazrat Sheikh Junaid e Baghdadi</li>
+            <li>★ Hazrat Huzaifa bin Yamani</li>
+            <li>★ Hazrat Jabir Bin Abdullah Ansari</li>
+            <li>★ Hazrat Imam Mohammed Tahir (Sahabiye Rasool)</li>
+            <li>★ Hazrat Mohammed Baqir</li>
+            <li>★ Hazrat Salman Farsi</li>
+            <li>★ Hazrat Zunoon Misri</li>
+            <li>★ Nabi Allah Hazrat Behlul Dana</li>
+            <li>★ Hazrat Sheikh Maruf Karkhi</li>
+            <li>★ Hazrat Abubakar Shibli</li>
+            <li>★ Hazrat Hasan Noori</li>
+            <li>★ Hazrat Sheikh Umar Shahabuddin Soharwardi</li>
+            <li>★ Hazrat Sheikh Hasan Bashri</li>
+            <li>★ Hazrat Mansur Al-Hallaj</li>
+            <li>★ Hazrat Imam Ahmad Bin Hanbal</li>
+            <li>★ Hazrat Sheikh Habib Ajmi</li>
+          </ol>
+          <h4 className="text-[#ddb66a] py-2">ZIYARAT-E-KARBALA</h4>
+          <ol>
+            <li>★ Nawasa e Rasool Hazrat Imam E Hussain</li>
+            <li>★ Hazrat Sayadina Ali Akbar</li>
+            <li>★ Hazrat Sayadina Ali Asgar</li>
+            <li>★ Hazrat Abbas Alambardar</li>
+            <li>★ Wah jagah Jaha Imam Hussain Shaheed hue the</li>
+          </ol>
+          <h4 className="text-[#ddb66a] py-2">ZIYARAT-E-KAAZMAIN</h4>
+          <ol>
+            <li>★ Hazrat Imam Musa Kazim</li>
+            <li>★ Hazrat Imam Mohammed Taqi</li>
+          </ol>
+          <h4 className="text-[#ddb66a] py-2">ZIYARAT-E-NAAJAF</h4>
+          <ol>
+            <li>★ Hazrat Ali Roza Mubarak</li>
+            <li>★ Makame Mehndi</li>
+          </ol>
+          <h4 className="text-[#ddb66a] py-2">ZIYARAT-E-HILLAH</h4>
+          <ol>
+            <li>★ Hazrat Ayub</li>
+            <li>★ Bibi Rahima (Hazrat Ayub’s Wife)</li>
+            <li>★ Woh 2 wells jiske Pani se Hazrat Ayub ko Shifa hui thi</li>
+          </ol>
+          <h4 className="text-[#ddb66a] py-2">ZIYARAT-E-KUFA</h4>
+          <ol>
+            <li>★ Masjid e Kufa</li>
+            <li>★ Baith (House) Hazrat Ali</li>
+            <li>★ Hazrat Muslim Bin Akil</li>
+            <li>★ Hazrat Hani Bin Urva</li>
+            <li>★ Mehrab-E-Hazrat Ali</li>
+            <li>★ Dahan Hazrat Ali Pe Qatilana Hamia Hua Tha</li>
+            <li>★ Tandoor-E-Nooh</li>
+            <li>★ Dahan Se Tufane Nooh Shuru Hua Thal</li>
+          </ol>
+        </div>
+      </div>
+    ),
+  },
+];
+
+export const ziyaratExpandData = [
+  {
+    id: 1,
+    title: "Baghdad Ziyarat Tours 2024 – Advantages",
+    disc: (
+      <div className="flex flex-col justify-center items-center">
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          Erasing of Sins
+        </h3>
+        <div className="flex  justify-center items-center gap-2">
+          <img src={ibadat} className="w-[120px] h-[80px]"></img>
+          <p>
+            Every human being seeks the opportunity to erase their sins.
+            Visiting Ziyarat sites and seeking forgiveness at these sacred sites
+            provides a chance for spiritual relief and cleansing, enabling
+            pilgrims to start anew with a clean slate.
+          </p>
+        </div>
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          Strengthening Faith
+        </h3>
+        <div className="flex  justify-center items-center gap-2">
+          <img src={faith} className="w-[120px] h-[80px]"></img>
+          <p>
+            The journey to these holy sites strengthens one’s faith and
+            commitment to Islamic teachings. Visiting the sites of pivotal
+            importance in Islamic history can profoundly enhance one’s
+            comprehension and understanding of their faith. It’s an experience
+            that connects individuals with their heritage and beliefs on a
+            deeper level, offering a link to the past and an impact on the
+            present.
+          </p>
+        </div>
+
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          Group Tours and Community Building
+        </h3>
+        <div className="flex  justify-center items-center gap-2">
+          <img src={group} className="w-[120px] h-[80px]"></img>
+          <p>
+            Travelling in group tours fosters a sense of community and support.
+            This shared experience deepens the journey’s significance, enriching
+            it in ways that resonate within the heart and soul.
+          </p>
+        </div>
+
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          Spiritual Renewal
+        </h3>
+        <div className="flex  justify-center items-center gap-2">
+          <img src={rewards} className="w-[120px] h-[80px]"></img>
+          <p>
+            Performing Ziyarat offers a chance to rejuvenate your spirit and
+            renew your faith. Visiting holy sites and praying in sacred spaces
+            allows pilgrims to feel a profound connection to Islam and receive
+            divine blessings of Ghaus Paak and the Shohda’s.
+          </p>
+        </div>
+      </div>
+    ),
+  },
+  {
+    id: 2,
+    title: "Which is the best Tour for Baghdad Ziyarat Packages?",
+    disc: (
+      <div className="flex flex-col justify-center items-center">
+        <h2>
+          Hijrat Tours and Travels is the best tour for Baghdad Ziyarat Packages
+          2024-2025.
+        </h2>
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          Reliable Tour Operators
+        </h3>
+        <div className="flex  justify-center items-center gap-2">
+          <img src={personal} className="w-[120px] h-[80px]"></img>
+          <p>
+            We have been committed to providing reliable and affordable Hajj,
+            Umrah and Baghdad Ziyarat Services for 35 Years now. Our good credit
+            in the market and happy clients with over 1000+ satisfied customer
+            families have led us to establish a reputation in the industry as
+            the most reputed and trustworthy Hajj, Umrah and Ziyarat pilgrimage
+            service providers.
+          </p>
+        </div>
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          Exceptional Services
+        </h3>
+        <div className="flex  justify-center items-center gap-4">
+          <img src={service} className="w-[120px] h-[180px]"></img>
+          <p>
+            Commitment in the travel industry is of utmost importance, and we
+            have got you covered. Above all, our primary objective is to fulfill
+            the commitments we have made to our pilgrims. The itinerary and
+            rates we publish in our brochure are final, and those services are
+            very professionally provided by our staff members. Exceptions are
+            made in situations like emergencies or pandemics, where changes can
+            be expected.Our primary objective is to fulfil all the requirements
+            of our Pilgrims during their Ziyarat Packages of Baghdad, Najaf and
+            Karbala. Reliability and commitment are the cornerstones of our
+            service goals. We take pride in saying that every detail of the
+            itinerary is meticulously planned and every promise made to our
+            pilgrims fulfilled. Our experienced staff members are dedicated to
+            providing professional and courteous service, making your journey
+            smooth and enjoyable. Enriching the sacred journey with memories of
+            a lifetime.
+          </p>
+        </div>
+
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          Universal policies
+        </h3>
+        <div className="flex  justify-center items-center gap-4">
+          <img src={universal} className="w-[120px] h-[80px]"></img>
+          <p>
+            Our booking and cancellation policies are fair and transparent and
+            adhere to universal standards for all our pilgrims worldwide. No
+            matter where you book from, you will be given complete
+            attention/assistance, fair prices and deals.
+          </p>
+        </div>
+
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          Official Recognition
+        </h3>
+        <div className="flex  justify-center items-center gap-4">
+          <img src={affair} className="w-[120px] h-[80px]"></img>
+          <p>
+            We are officially recognised by key organisations such as IATA,
+            AIHUTOA, and MOMA. Also, our recognition from the Indian and Saudi
+            Govt. reflects our credibility and dedication to serving pilgrims
+            with years and years of experience and trust.
+          </p>
+        </div>
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          Affordable Packages
+        </h3>
+        <div className="flex  justify-center items-center gap-4">
+          <img src={cash} className="w-[120px] h-[80px]"></img>
+          <p>
+            We offer a range of Budget-friendly packages without compromising on
+            quality. From VIP Packages to Affordable Packages to Baghdad
+            Shareef. These Packages are fairly priced ensuring a fulfilling
+            experience for all. Our goal is to make this sacred journey
+            accessible to as many pilgrims as possible. Thus our slogan is “The
+            Better Pilgrimage” which means we provide excellent value without
+            compromising on quality.
+          </p>
+        </div>
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          Comfortable A/C Transportation
+        </h3>
+        <div className="flex  justify-center items-center gap-4">
+          <img src={bus} className="w-[120px] h-[80px]"></img>
+          <p>
+            Traveling between holy sites can be challenging, but with our
+            well-organized A/C transportation services, you can move comfortably
+            from one site to another. With air-conditioned group buses or
+            at-cost private cars and knowledgeable drivers who know all the
+            routes making sure that your journey is as convenient as possible.
+          </p>
+        </div>
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          Comprehensive Ziyarat
+        </h3>
+        <div className="flex  justify-center items-center gap-4">
+          <img src={comprehensive} className="w-[120px] h-[80px]"></img>
+          <p>
+            Ziyarat services are designed to deepen your spiritual connection
+            through guided visits to significant religious sites in Baghdad,
+            Najaf, and Karbala. Experienced guides provide insightful Hadees,
+            historical context, sunna and other significance of each site,
+            enhancing the understanding and appreciation of Islam. Ensuring that
+            you have ample time for prayers, reflection, and personal devotion
+            at each location esp. at Gaus Paak Darga.
+          </p>
+        </div>
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          Cozy Accommodations
+        </h3>
+        <div className="flex  justify-center items-center gap-4">
+          <img src={hotel} className="w-[120px] h-[80px]"></img>
+          <p>
+            We offer a range of accommodation options, from 3-star to 5-star
+            hotels, each carefully selected for their comfort, amenities,
+            affordability and proximity to significant Ziyarat sites. Whether
+            you prefer a luxurious stay or a Budget-Friendly Smart-Luxury 3-star
+            Accommodation Hotel, our stay options provide a restful and pleasant
+            environment.
+          </p>
+        </div>
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          Exceptional Culinary Experience
+        </h3>
+        <div className="flex  justify-center items-center gap-4">
+          <img src={logo} className="w-[120px] h-[80px]"></img>
+          <p>
+            Nourishment is essential for every spiritual journey to give you the
+            most required strength for prayers. Our culinary services offer a
+            variety of delicious and nutritious buffet meals, carefully prepared
+            by our in-house chefs to cater to the tastes requirements of
+            Indians. Ensuring that each meal is a delightful experience.
+          </p>
+        </div>
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          Shohda Ziyarat
+        </h3>
+        <div className="flex  justify-center items-center gap-4">
+          <img src={shoda} className="w-[120px] h-[80px]"></img>
+          <p>
+            In addition to visiting the shrine of Ghaus Al Azam Dastageer, our
+            package offers ziyarat of other 72 Shohda ikraam to enrich your
+            understanding of history and struggle for Islam. Embark on this
+            spiritually enriching Baghdad sharif tour package(via link) with
+            guided visits to significant Ziyarat sites in Baghdad, Karbala and
+            Najaf and deepen your connection to Allah.
+          </p>
+        </div>
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          24/7 Customer Support
+        </h3>
+        <div className="flex  justify-center items-center gap-4">
+          <img src={hours} className="w-[120px] h-[80px]"></img>
+          <p>
+            A dedicated customer support team is available 24/7 to assist with
+            any questions or concerns. Though they are travel arrangements,
+            accommodations, or local recommendations, whenever you are stuck our
+            team is committed to providing prompt and courteous service, making
+            your pilgrimage as stress-free as possible.
+          </p>
+        </div>
+        <h3 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
+          Customised Packages
+        </h3>
+        <div className="flex  justify-center items-center gap-4">
+          <img src={customize} className="w-[120px] h-[80px]"></img>
+          <p>
+            We understand that each pilgrim’s needs are unique, so special
+            attention is given to details when curating packages. Baghdad Sharif
+            Gyarvi Packages from Mumbai are designed to offer flexibility and
+            affordability without compromising comfort. With a variety of
+            options available, we guarantee a perfect fit for everyone, making
+            your spiritual journey as comfortable and memorable as possible.
+          </p>
+        </div>
+      </div>
     ),
   },
 ];

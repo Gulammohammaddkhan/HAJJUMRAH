@@ -78,7 +78,7 @@ function Footer({ footerData }) {
             <div className="flex">
               <input
                 className="text-[#e8d8bb] border-1 rounded-sm overflow-hidden outline-none"
-                type="number"
+                type="tel"
                 placeholder="Mobile Number"
                 value={mobile}
                 onChange={(e) => setMobile(e.target.value)}

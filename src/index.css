@@ -45,3 +45,18 @@ html {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+@media (max-width: 320px) {
+  .help {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .help {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 355px) {
+  .help {
+    flex-wrap: wrap;
+  }
+}

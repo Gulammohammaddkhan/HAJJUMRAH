@@ -24,7 +24,8 @@ function Hero({ bgImg, title }) {
       style={{
         background: `url(${bgImg})`,
         width: "100%",
-        height: "500px",
+        height: "560px",
+
         opacity: 0.85,
         backgroundSize: "cover",
         backgroundPosition: "center",

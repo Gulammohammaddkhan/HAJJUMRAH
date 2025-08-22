@@ -82,6 +82,12 @@ import ibadat from "../src/Images/ibadat.jpg";
 import comprehensive from "../src/Images/comprehensive.jpg";
 import logo from "../src/Images/hijratLogo1.png";
 import shoda from "../src/Images/shoda.avif";
+import ziyarat1 from "../src/Images/ziyarat1.avif";
+import ziyarat2 from "../src/Images/ziyarat2.avif";
+import ziyarat3 from "../src/Images/ziyarat3.avif";
+import ziyarat4 from "../src/Images/ziyarat4.avif";
+import ziyarat5 from "../src/Images/ziyarat5.avif";
+import ziyarat6 from "../src/Images/ziyarat6.avif";
 
 export const navLinks = [
   {
@@ -2814,5 +2820,91 @@ export const ziyaratExpandData = [
         </div>
       </div>
     ),
+  },
+];
+export const ziyaratPackagesPageData = [
+  {
+    img: ziyarat1,
+    title: "SILVER ZIYARAT PACKAGE ZT-01",
+    hotels: [
+      { hotelLocation: "Baghdad :", hotelName: "SWAN LAKE" },
+      { hotelLocation: "Najaf :", hotelName: "DHIOUF AL IMAM 2" },
+      { hotelLocation: "Karbala :", hotelName: "SHAMS KARBALA" },
+    ],
+    departure: "MUMBAI",
+    rate: "₹ 1,03,000",
+    days: "11 days",
+    description:
+      "Enjoy a spiritual journey with our Silver Ziyarat Package ZT-01. Stay at quality hotels in Baghdad, Najaf, and Karbala with guided ziyarats and return flights from Mumbai. Meals, local transport, and assistance by experienced group leaders are included.",
+  },
+  {
+    img: ziyarat2,
+    title: "GOLD ZIYARAT PACKAGE ZT-02",
+    hotels: [
+      { hotelLocation: "Baghdad :", hotelName: "AL PASHA PALACE" },
+      { hotelLocation: "Najaf :", hotelName: "DHIOUF AL IMAM 2" },
+      { hotelLocation: "Karbala :", hotelName: "SHAMS KARBALA" },
+    ],
+    departure: "MUMBAI",
+    rate: "₹ 1,19,000",
+    days: "11 days",
+    description:
+      "Our Gold Ziyarat Package ZT-02 offers premium hospitality and a comfortable pilgrimage. The package includes return flights from Mumbai, stays at renowned hotels, meals, guided ziyarats, and full assistance throughout your journey.",
+  },
+  {
+    img: ziyarat3,
+    title: "PLATINUM ZIYARAT PACKAGE ZT-03",
+    hotels: [
+      { hotelLocation: "Baghdad :", hotelName: "PALESTINE INTERNATIONAL" },
+      { hotelLocation: "Najaf :", hotelName: "QASR AL DHIYAFA" },
+      { hotelLocation: "Karbala :", hotelName: "BURJ MURTAZA" },
+    ],
+    departure: "MUMBAI",
+    rate: "₹ 1,41,000",
+    days: "11 days",
+    description:
+      "With the Platinum Ziyarat Package ZT-03, experience luxury and comfort. Stay at premium hotels across Baghdad, Najaf, and Karbala. Package includes return flights from Mumbai, full meals, ziyarats, and 24/7 assistance by our dedicated team.",
+  },
+  {
+    img: ziyarat4,
+    title: "SILVER ZIYARAT PACKAGE ZT-04",
+    hotels: [
+      { hotelLocation: "Baghdad :", hotelName: "SWAN LAKE" },
+      { hotelLocation: "Najaf :", hotelName: "DHIOUF AL IMAM 2" },
+      { hotelLocation: "Karbala :", hotelName: "SHAMS KARBALA" },
+    ],
+    departure: "MUMBAI",
+    rate: "₹ 1,11,000",
+    days: "11 days",
+    description:
+      "Silver Ziyarat Package ZT-04 is designed for comfort and affordability. Stay at trusted hotels, enjoy guided ziyarats, meals, and seamless travel with return flights from Mumbai.",
+  },
+  {
+    img: ziyarat5,
+    title: "GOLD ZIYARAT PACKAGE ZT-05",
+    hotels: [
+      { hotelLocation: "Baghdad :", hotelName: "AL PASHA PALACE" },
+      { hotelLocation: "Najaf :", hotelName: "DHIOUF AL IMAM 2" },
+      { hotelLocation: "Karbala :", hotelName: "SHAMS KARBALA" },
+    ],
+    departure: "MUMBAI",
+    rate: "₹ 1,27,000",
+    days: "11 days",
+    description:
+      "Gold Ziyarat Package ZT-05 offers a balance of comfort and value. Includes flights from Mumbai, quality hotel stays, guided ziyarats, meals, and reliable support for your pilgrimage.",
+  },
+  {
+    img: ziyarat6,
+    title: "PLATINUM ZIYARAT PACKAGE ZT-06",
+    hotels: [
+      { hotelLocation: "Baghdad :", hotelName: "PALESTINE INTERNATIONAL" },
+      { hotelLocation: "Najaf :", hotelName: "QASR AL DHIYAFA" },
+      { hotelLocation: "Karbala :", hotelName: "BURJ MURTAZA" },
+    ],
+    departure: "MUMBAI",
+    rate: "₹ 1,49,000",
+    days: "11 days",
+    description:
+      "Platinum Ziyarat Package ZT-06 brings unmatched comfort with top-tier hotels. The package covers return flights from Mumbai, luxury stays, full meals, guided ziyarats, and complete travel assistance.",
   },
 ];

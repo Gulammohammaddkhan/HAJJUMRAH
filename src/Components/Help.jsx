@@ -42,11 +42,15 @@ function Help() {
   }
 
   return (
-    <div className="text-[#ddb66a] flex  gap-6 mx-10 py-16">
-      <div className=" w-[70%] flex flex-col justify-center items-center gap-4 ">
+    <div className="text-[#ddb66a] flex justify-center items-center  gap-6 mx-10 py-16 help">
+      <div className=" w-[70%] flex flex-col justify-center items-center gap-4  ">
         <h2 className="text-3xl font-semibold ">Media About Us</h2>
         <div className="relative">
-          <img src={helpImg[current]} alt="img" className="relative" />
+          <img
+            src={helpImg[current]}
+            alt="img"
+            className="relative rounded-lg"
+          />
           <div className="absolute top-[40%] left-[-17px] ">
             <IoIosArrowDropleftCircle
               size={36}
@@ -71,13 +75,13 @@ function Help() {
       </div>
       <div className="flex flex-col justify-center items-center gap-4">
         <h2 className="text-3xl font-semibold ">How Can We Help?</h2>
-        <p className="text-xl text-[#e8d8bb]">
+        {/* <p className="text-xl text-[#e8d8bb]">
           {" "}
           Whether you're looking to book a pilgrimage, have questions about
           packages, or need assistance — we're here to guide you every step of
           the way.{" "}
-        </p>
-        <div className="px-20 w-full py-8 bg-[#313131] text-[#e8d8bb] ">
+        </p> */}
+        <div className="px-20 w-full py-8 bg-[#313131] text-[#e8d8bb] rounded-md">
           <form
             onSubmit={handleSubmit}
             action="post"
@@ -85,8 +89,8 @@ function Help() {
           >
             <input
               type="text"
-              placeholder="name"
-              className="border-2 overflow-hidden outline-none"
+              placeholder="Name"
+              className="border-2 overflow-hidden outline-none rounded-sm focus:border-[#e8d8bb] focus:ring-0 "
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
@@ -96,14 +100,14 @@ function Help() {
               name="phone"
               pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
               placeholder="Mobile number*"
-              className="border-2 overflow-hidden outline-none "
+              className="border-2 overflow-hidden outline-none rounded-sm focus:border-[#e8d8bb] focus:ring-0 "
               value={number}
               onChange={(e) => setNumber(e.target.value)}
             />
             <input
               type="mail"
               placeholder="Your Email"
-              className="border-2 overflow-hidden outline-none "
+              className="border-2 overflow-hidden outline-none rounded-sm focus:border-[#e8d8bb] focus:ring-0 "
               value={mail}
               onChange={(e) => setMail(e.target.value)}
             />
@@ -111,23 +115,23 @@ function Help() {
               <select
                 name="packages"
                 id=""
-                className="w-full border-2 "
+                className="w-full border-2 rounded-sm outline-none focus:border-[#e8d8bb] focus:ring-0 "
                 value={dropDown}
                 onChange={(e) => setDropDown(e.target.value)}
               >
-                <option value="hajj" className="bg-[#313131]">
+                <option value="hajj" className="bg-[#313131] ">
                   Hajj
                 </option>
-                <option value="umrah" className="bg-[#313131]">
+                <option value="umrah" className="bg-[#313131] ">
                   Umrah
                 </option>
                 <option value="ziyarat" className="bg-[#313131]">
                   Ziyarat
                 </option>
-                <option value="ramadan" className="bg-[#313131]">
+                <option value="ramadan" className="bg-[#313131] ">
                   Ramadan
                 </option>
-                <option value="others" className="bg-[#313131]">
+                <option value="others" className="bg-[#313131] ">
                   Others
                 </option>
               </select>
@@ -141,11 +145,20 @@ function Help() {
                 </Link>
               </label>
             </div>
-            <button type="submit" className="w-full bg-[#ddb66a] text-black">
+            <button
+              type="submit"
+              className="w-full bg-[#ddb66a] text-black rounded-sm font-semibold cursor-pointer hover:scale-105 transition-all ease-in-out"
+            >
               send inquiry
             </button>
           </form>
         </div>
+        <p className="text-xl text-[#e8d8bb] helper-text">
+          {" "}
+          Whether you're looking to book a pilgrimage, have questions about
+          packages, or need assistance — we're here to guide you every step of
+          the way.{" "}
+        </p>
       </div>
     </div>
   );

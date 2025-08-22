@@ -26,7 +26,7 @@ function Home() {
     <div>
       <Hero bgImg={bgImg} title="Hijrat tours" />
       <Wrapper>
-        <h2 className="text-[#ddb66a] text-5xl  font-bold flex justify-center py-20">
+        <h2 className="text-[#ddb66a] text-5xl  font-bold flex justify-center pt-20">
           What we Offers
         </h2>
 
@@ -45,14 +45,14 @@ function Home() {
                   })}
                 </div>
               )}
-              <div className="flex justify-center mt-7">
+              {/* <div className="flex justify-center mt-7">
                 <Button
                   className="  "
                   text={"View All"}
                   bgColor={""}
                   textColor={"#ddb66a"}
                 />
-              </div>
+              </div> */}
             </div>
           );
         })}
@@ -67,5 +67,3 @@ function Home() {
 }
 
 export default Home;
-
-

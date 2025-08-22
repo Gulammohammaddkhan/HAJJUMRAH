@@ -1,10 +1,15 @@
 import React from "react";
 import Hero from "./Hero";
 import ziyarat from "../Images/Ziyaratbg.avif";
-import { ziyaratDetailData, ziyaratExpandData } from "../../data/Data";
+import {
+  ziyaratDetailData,
+  ziyaratExpandData,
+  ziyaratPackagesPageData,
+} from "../../data/Data";
 import Wrapper from "./Wrapper";
 import { useState } from "react";
 import Button from "./Button";
+import CustomCard from "./CustomCard";
 
 function Baghdad() {
   const [expand, setExpand] = useState(false);
@@ -56,10 +61,16 @@ function Baghdad() {
             textColor={"#ddb66a"}
           />
         </div>
+        {
+          <div className="grid grid-cols-3 gap-10 pb-20">
+            {ziyaratPackagesPageData.map((item, index) => {
+              return <CustomCard data={item} key={index} />;
+            })}
+          </div>
+        }
       </Wrapper>
     </div>
   );
 }
 
 export default Baghdad;
-

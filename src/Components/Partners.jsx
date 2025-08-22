@@ -3,7 +3,7 @@ import React from "react";
 
 function Partners({ partnersData }) {
   return (
-    <div className="flex flex-wrap justify-around items-center gap-10 py-10 filter grayscale border-t-1 border-t-[#303030] ">
+    <div className="flex flex-wrap justify-around items-center gap-10 py-10 px-4 filter grayscale border-t-1 border-t-[#303030] ">
       {partnersData.map((item, index) => {
         return (
           <div className="partner" key={index}>

@@ -16,8 +16,9 @@ import Help from "./Help";
 import Partners from "./Partners";
 import Footer from "./Footer";
 import bgImg from "../Images/HeaderBg3.jpg";
+import { Link } from "react-router-dom";
 
-function Home() {
+function Home({ viewAllPath }) {
   const updatedData = packageCategories.map((obj, index) => {
     return { ...obj, id: Date.now() + index };
   });
@@ -45,14 +46,9 @@ function Home() {
                   })}
                 </div>
               )}
-              {/* <div className="flex justify-center mt-7">
-                <Button
-                  className="  "
-                  text={"View All"}
-                  bgColor={""}
-                  textColor={"#ddb66a"}
-                />
-              </div> */}
+              <div className="flex justify-center mt-7 text-[#ddb66a] font-serif font-semibold hover:text-[#e0c692] hover:scale-110 transition-all ease-in-out">
+                <Link to={obj.viewAllLink}>View All</Link>
+              </div>
             </div>
           );
         })}

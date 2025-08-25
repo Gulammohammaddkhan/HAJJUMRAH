@@ -6,7 +6,6 @@ import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
 } from "react-icons/io";
-import { div } from "motion/react-client";
 
 function Help() {
   const helpImg = [tawaf, madinaimg];
@@ -28,17 +27,31 @@ function Help() {
   //     setCurrent((prev) => (prev - 1 + helpImg.length) % helpImg.length);
   //   }
   // }
-  const [name, setName] = useState("");
-  const [number, setNumber] = useState("");
-  const [mail, setMail] = useState("");
-  const [dropDown, setDropDown] = useState("");
+
+  const [contact, setContact] = useState({
+    name: "",
+    phone: "",
+    mail: "",
+    packages: "",
+  });
+
+  function handleChange(e) {
+    const { name, value } = e.target;
+    setContact((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  }
+  console.log(contact);
 
   function handleSubmit(e) {
     e.preventDefault();
-    setName("");
-    setNumber("");
-    setMail("");
-    setDropDown("");
+    setContact({
+      name: "",
+      phone: "",
+      mail: "",
+      packages: "",
+    });
   }
 
   return (
@@ -89,35 +102,37 @@ function Help() {
           >
             <input
               type="text"
+              name="name"
               placeholder="Name"
-              className="border-2 overflow-hidden outline-none rounded-sm focus:border-[#e8d8bb] focus:ring-0 "
-              value={name}
-              onChange={(e) => setName(e.target.value)}
+              className=" p-2 overflow-hidden outline-none rounded-sm border-1 focus:border-[#e8d8bb] focus:ring-1 "
+              value={contact.name}
+              onChange={(e) => handleChange(e)}
             />
             <input
               type="tel"
               id="phone"
               name="phone"
-              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              // pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
               placeholder="Mobile number*"
-              className="border-2 overflow-hidden outline-none rounded-sm focus:border-[#e8d8bb] focus:ring-0 "
-              value={number}
-              onChange={(e) => setNumber(e.target.value)}
+              className=" p-2 overflow-hidden outline-none rounded-sm border-1 focus:border-[#e8d8bb] focus:ring-1 "
+              value={contact.phone}
+              onChange={(e) => handleChange(e)}
             />
             <input
               type="mail"
+              name="mail"
               placeholder="Your Email"
-              className="border-2 overflow-hidden outline-none rounded-sm focus:border-[#e8d8bb] focus:ring-0 "
-              value={mail}
-              onChange={(e) => setMail(e.target.value)}
+              className=" p-2 overflow-hidden outline-none rounded-sm border-1 focus:border-[#e8d8bb] focus:ring-1 "
+              value={contact.mail}
+              onChange={(e) => handleChange(e)}
             />
             <div className="w-full">
               <select
                 name="packages"
                 id=""
-                className="w-full border-2 rounded-sm outline-none focus:border-[#e8d8bb] focus:ring-0 "
-                value={dropDown}
-                onChange={(e) => setDropDown(e.target.value)}
+                className=" p-2 w-full overflow-hidden outline-none rounded-sm border-1 focus:border-[#e8d8bb] focus:ring-1 "
+                value={contact.packages}
+                onChange={(e) => handleChange(e)}
               >
                 <option value="hajj" className="bg-[#313131] ">
                   Hajj
@@ -138,6 +153,7 @@ function Help() {
             </div>
             <div>
               <input type="checkbox" />
+
               <label htmlFor="">
                 I accept the{" "}
                 <Link to={"/"} className="text-[#ddb66a]">
@@ -147,7 +163,7 @@ function Help() {
             </div>
             <button
               type="submit"
-              className="w-full bg-[#ddb66a] text-black rounded-sm font-semibold cursor-pointer hover:scale-105 transition-all ease-in-out"
+              className="w-full p-1 bg-[#ddb66a] text-black rounded-sm font-semibold cursor-pointer hover:scale-105 transition-all ease-in-out"
             >
               send inquiry
             </button>

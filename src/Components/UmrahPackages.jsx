@@ -27,7 +27,6 @@ function UmrahPackages() {
   }
   return (
     <div id="umrahpackages">
-      UmrahPackages
       <Hero bgImg={bgImg} title={"Umrah Packages"} />
       <Wrapper>
         <div className="flex flex-col items-center px-10 py-10 gap-4">

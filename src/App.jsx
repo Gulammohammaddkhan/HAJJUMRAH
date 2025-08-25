@@ -22,12 +22,13 @@ import { partnersData } from "../data/Data";
 import Footer from "./Components/Footer";
 import { footerData } from "../data/Data";
 import Help from "./Components/Help";
+import ScrollToTop from "./Components/ScollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop /> {/* Yeh add karna zaroori hai */}
       <Header />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/hajjpackages" element={<HajjPackages />} />

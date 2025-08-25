@@ -2,8 +2,11 @@ import React from "react";
 import "animate.css";
 import { TypewriterEffectSmooth } from "./ui/typerwritterEffect";
 import Wrapper from "./Wrapper";
+import { useLocation } from "react-router-dom";
 
 function Hero({ bgImg, title }) {
+  const location = useLocation();
+
   const words = [
     {
       text: "AS  ",
@@ -37,11 +40,18 @@ function Hero({ bgImg, title }) {
       }}
     >
       <Wrapper>
-        <TypewriterEffectSmooth words={words} />
+        {location.pathname === "/" && <TypewriterEffectSmooth words={words} />}
       </Wrapper>
-      <h2 className=" animate__animated animate__pulse animate__infinite items-center  text-3xl font-semibold  text-[#ddb66a]">
+      {location.pathname === "/contact" ? (
+        ""
+      ) : (
+        <h2 className=" animate__animated animate__pulse animate__infinite items-center  text-3xl font-semibold  text-[#ddb66a]">
+          Welcome to {title}
+        </h2>
+      )}
+      {/* <h2 className=" animate__animated animate__pulse animate__infinite items-center  text-3xl font-semibold  text-[#ddb66a]">
         Welcome to {title}
-      </h2>
+      </h2> */}
     </div>
   );
 }

@@ -182,6 +182,7 @@ export const packageCategories = [
           "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
       },
     ],
+    viewAllLink: "/hajjpackages",
   },
   {
     type: "Umrah Packages",
@@ -283,6 +284,7 @@ export const packageCategories = [
           "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
       },
     ],
+    viewAllLink: "/umrahpackages",
   },
   {
     type: "Ramadan Packages",
@@ -326,6 +328,7 @@ export const packageCategories = [
           "Experience a comfortable and spiritual journey with our 2026 Silver Non-Shifting Hajj Package. This short tour is designed for those looking for quality service and convenience within a limited timeframe. Enjoy a stay in premium hotels close to Haram in both Makkah (Snood Ajyad) and Madina (Ritz Al Madinah). The non-shifting nature ensures you remain in the same hotel throughout your stay in each city. The package includes return flights from Mumbai (BOM), full board meals, guided ziyarats, air-conditioned luxury transport, and assistance throughout the pilgrimage by experienced group leaders.",
       },
     ],
+    viewAllLink: "/ramadan",
   },
 ];
 

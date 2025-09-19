@@ -3,7 +3,7 @@ import { MdLocationOn } from "react-icons/md";
 import { IoIosMailOpen } from "react-icons/io";
 import { FaMobileRetro } from "react-icons/fa6";
 import Hero from "./Hero";
-import bgImg from "../Images/Geminiimg.png";
+import bgImg from "../Images/geminiImg.png";
 import Wrapper from "./Wrapper";
 
 function Contact() {

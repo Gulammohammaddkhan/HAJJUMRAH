@@ -71,15 +71,15 @@ function Header() {
 
         {/* Mobile Menu */}
         {toggle && (
-          <div className="lg:hidden bg-black/95 px-4 py-5">
-            <nav className="flex flex-col gap-4">
+          <div className="lg:hidden bg-black/95 backdrop-blur-md px-6 py-6 border-b border-[#ddb66a]/30 shadow-2xl transition-all duration-300">
+            <nav className="flex flex-col gap-3">
               {navLinks?.map((link) => (
                 <NavLink
                   key={link.title}
                   to={link.path}
                   className={({ isActive }) =>
-                    `py-2 px-3 rounded text-[#ddb66a] hover:text-[#e0c692] transition ${
-                      isActive ? "bg-[#ddb66a]/20 text-[#e0c692]" : ""
+                    `py-3 px-4 rounded-lg text-base font-medium text-[#ddb66a] hover:text-[#e0c692] hover:bg-[#ddb66a]/10 transition-all ${
+                      isActive ? "bg-[#ddb66a]/20 text-[#e0c692] font-semibold" : ""
                     }`
                   }
                   onClick={() => setToggle(false)}

@@ -10,15 +10,16 @@ const Faq = ({ data }) => {
     setCurrentIndex(currentIndex === index ? null : index);
   };
 
+  if (!data || data.length === 0) return null;
+
   return (
-    <div className="flex justify-center py-10">
-      {/* Background box with +50px padding */}
-      <div className="bg-[#303030] rounded-xl shadow-lg inline-block px-12 py-8">
-        <div className="max-w-2xl text-white">
-          <h2 className="text-2xl font-bold text-center mb-6 text-[#ddb66a]">
+    <div className="flex justify-center py-8 md:py-14 w-full">
+      <div className="w-full max-w-3xl bg-[#303030] rounded-2xl shadow-xl border border-[#ddb66a]/20 px-4 sm:px-8 py-6 sm:py-8">
+        <div className="text-white w-full">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 text-[#ddb66a]">
             Frequently Asked Questions
           </h2>
-          <ul className="space-y-4">
+          <ul className="space-y-3 sm:space-y-4">
             {data.map((item, index) => {
               const isOpen = currentIndex === index;
 
@@ -29,30 +30,28 @@ const Faq = ({ data }) => {
                 >
                   <button
                     onClick={() => handleFAQToggle(index)}
-                    className="w-full flex items-center justify-between p-4 focus:outline-none"
+                    className="w-full flex items-center justify-between p-3.5 sm:p-4 focus:outline-none text-left gap-2 cursor-pointer"
                   >
-                    <span className="text-sm text-[#e8d8bb] font-medium">
+                    <span className="text-xs sm:text-sm md:text-base text-[#e8d8bb] font-medium">
                       {item.title}
                     </span>
-                    {isOpen ? (
-                      <FaMinus size={18} className="text-[#e8d8bb]" />
-                    ) : (
-                      <FiPlus size={18} className="text-[#e8d8bb]" />
-                    )}
+                    <span className="shrink-0 text-[#ddb66a]">
+                      {isOpen ? (
+                        <FaMinus size={16} />
+                      ) : (
+                        <FiPlus size={16} />
+                      )}
+                    </span>
                   </button>
                   <div
-                    className={`transition-all duration-300 overflow-hidden ${
-                      isOpen ? "max-h-[800px] p-4 pt-0" : "max-h-0"
-                    } `}
+                    className={`transition-all duration-300 ease-in-out overflow-hidden ${
+                      isOpen ? "max-h-[800px] p-3.5 sm:p-4 pt-0" : "max-h-0"
+                    }`}
                   >
-                    <p
-                      key={index}
-                      className="text-sm text-[#ebd3a6] leading-relaxed mb-2"
-                    >
+                    <p className="text-xs sm:text-sm text-[#ebd3a6]/90 leading-relaxed mb-1">
                       {item.para}
                     </p>
                   </div>
-                  {/* */}
                 </li>
               );
             })}

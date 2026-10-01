@@ -27,22 +27,29 @@ function Home({ viewAllPath }) {
     <div>
       <Hero bgImg={bgImg} title="Hijrat tours" />
       <Wrapper>
-        <h2 className="text-[#ddb66a] text-5xl  font-bold flex justify-center pt-20">
-          What we Offers
+        <h2 className="text-[#ddb66a] text-3xl sm:text-4xl md:text-5xl font-bold text-center pt-12 md:pt-20">
+          What we Offer
         </h2>
 
         {updatedData?.map((obj) => {
           return (
-            <div className="" key={obj.id}>
-              <h2 className="text-[#ddb66a] text-3xl pt-20  font-semibold custom-heading flex justify-center pb-10 animate__animated animate__pulse animate__infinite">
+            <div className="w-full" key={obj.id}>
+              <h2 className="text-[#ddb66a] text-2xl sm:text-3xl pt-12 md:pt-16 pb-6 md:pb-8 font-semibold custom-heading text-center animate__animated animate__pulse animate__infinite">
                 {obj.type}
               </h2>
               {obj.type !== "Ramadan Packages" ? (
                 <Carousel data={obj.package} />
               ) : (
-                <div className="flex flex-wrap gap-10 justify-center items-center">
+                <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8 w-full max-w-5xl mx-auto py-2">
                   {obj.package.map((item, i) => {
-                    return <CustomCard data={item} key={i} />;
+                    return (
+                      <div
+                        key={i}
+                        className="w-full sm:w-[350px] max-w-[370px] flex justify-center"
+                      >
+                        <CustomCard data={item} />
+                      </div>
+                    );
                   })}
                 </div>
               )}

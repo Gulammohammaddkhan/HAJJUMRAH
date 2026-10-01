@@ -23,31 +23,31 @@ function HajjPackages() {
         <Hero bgImg={bgImg} title="hajj packages" />
       </div>
       <Wrapper>
-        <div>
-          <div className="flex flex-col justify-center items-center py-10">
-            <h2 className="text-[#ddb66a] text-3xl font-semibold font-serif pb-3">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex flex-col justify-center items-center py-8 md:py-12 text-center">
+            <h2 className="text-[#ddb66a] text-2xl sm:text-3xl md:text-4xl font-semibold font-serif pb-3">
               Hajj Packages 2026
             </h2>
-            <p className="text-[#e8d8bb] pb-3">
+            <p className="text-[#e8d8bb] text-sm sm:text-base leading-relaxed pb-3">
               Hajj Packages 2026 – Affordable, Luxurious and Exclusive Options
               from India. Embark on your Hajj 2026 journey with Bakhla Tours &
               Travels — trusted by lakhs of pilgrims for over 37+ years. As you
               witness the majesty of Makkah and the serenity of Madinah, we
               ensure every step of your pilgrimage is thoughtfully planned.
             </p>
-            <p className="text-[#e8d8bb] pb-3">
+            <p className="text-[#e8d8bb] text-sm sm:text-base leading-relaxed pb-3">
               Whether you’re searching for the best Hajj packages from India or
               you’re an NRI living abroad, we offer a wide range of options —
               from Luxury and Smart-Luxury packages to Affordable Hajj tours —
               all designed to suit your budget without compromising on quality
               or spiritual experience.
             </p>
-            <h4 className="text-[#ddb66a] text-lg font-semibold font-serif">
+            <h4 className="text-[#ddb66a] text-base sm:text-lg font-semibold font-serif mt-2">
               Let Hijrat be your Pathway to the Holy Kaaba
             </h4>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-10 pb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 pb-12 md:pb-20 justify-items-center">
           {hajjPackagesPageData.map((item, index) => {
             return <CustomCard data={item} key={index} />;
           })}

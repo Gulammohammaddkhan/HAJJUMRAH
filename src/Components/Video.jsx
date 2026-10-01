@@ -6,24 +6,24 @@ import { div } from "motion/react-client";
 
 function Video({ videoData }) {
   return (
-    <div className="flex justify-around pb-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center w-full pb-6">
       {videoData.map((item, index) => (
         <div
           key={index}
-          className="group relative performUmrah"
+          className="group relative w-full max-w-[350px] h-[200px] rounded-xl overflow-hidden shadow-lg border border-[#ddb66a]/30 hover:shadow-[#ddb66a]/20 transition-all duration-300"
           style={{
-            background: `url("${item.imgSrc}")`,
+            backgroundImage: `url("${item.imgSrc}")`,
             backgroundPosition: "center",
-            backgroundSize: "contain",
+            backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
           }}
         >
           <Link
             to={item.path}
             target="_blank"
-            className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            className="absolute inset-0 bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4 text-center"
           >
-            <p className="text-lg  text-[#ddb66a] font-bold  opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="text-base sm:text-lg text-[#ddb66a] font-bold">
               {item.text}
             </p>
           </Link>

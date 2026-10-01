@@ -11,52 +11,45 @@ function Ramadan() {
   function clickHandler() {
     return setExpend((prev) => !prev);
   }
+
+  const renderDetailItem = (item, index) => (
+    <div
+      key={index}
+      className="flex flex-col justify-center items-center text-center pb-4"
+    >
+      <h2 className="text-[#ddb66a] text-xl sm:text-2xl font-semibold font-serif py-3">
+        {item.title}
+      </h2>
+      <p className="text-[#e8d8bb] text-sm sm:text-base leading-relaxed text-justify sm:text-center">
+        {item.disc}
+      </p>
+    </div>
+  );
+
   return (
     <div>
-      <Hero bgImg={bgImg} title={"Ramadam Packages"} />
+      <Hero bgImg={bgImg} title={"Ramadan Packages"} />
       <Wrapper>
-        <div className="flex justify-center gap-8 py-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 py-10 md:py-16 justify-items-center">
           {ramadanCardData.map((item, index) => {
             return (
-              <div key={index}>
+              <div key={index} className="w-full flex justify-center">
                 <CustomCard data={item} />
               </div>
             );
           })}
         </div>
-        <div className=" flex flex-col gap-4">
+        <div className="flex flex-col items-center max-w-4xl mx-auto gap-4 pb-12">
           {expand
-            ? ramadanDetailData.map((item, index) => {
-                return (
-                  <div
-                    key={index}
-                    className="flex flex-col justify-center items-center"
-                  >
-                    <h2 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
-                      {item.title}
-                    </h2>
-                    <p className="text-[#e8d8bb] text-md">{item.disc}</p>
-                  </div>
-                );
-              })
-            : ramadanDetailData.slice(0, 1).map((item, index) => {
-                return (
-                  <div
-                    key={index}
-                    className="flex flex-col justify-center items-center"
-                  >
-                    <h2 className="text-[#ddb66a] text-2xl font-semibold font-serif py-4">
-                      {item.title}
-                    </h2>
-                    <p className="text-[#e8d8bb] text-md">{item.disc}</p>
-                  </div>
-                );
-              })}
-          <Button
-            onClick={clickHandler}
-            text={expand ? "view less" : "view more"}
-            textColor={"#ddb66a"}
-          />
+            ? ramadanDetailData.map((item, index) => renderDetailItem(item, index))
+            : ramadanDetailData.slice(0, 1).map((item, index) => renderDetailItem(item, index))}
+          <div className="mt-2">
+            <Button
+              onClick={clickHandler}
+              text={expand ? "View Less" : "View More"}
+              textColor={"#ddb66a"}
+            />
+          </div>
         </div>
       </Wrapper>
     </div>

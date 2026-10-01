@@ -9,38 +9,48 @@ import Wrapper from "./Wrapper";
 function Contact() {
   return (
     <div>
-      <Hero bgImg={bgImg} title={""} />
-      <div className="border-t-2 border-t-[#e8d8bb] border-b-2 border-b-[#e8d8bb] py-10 px-12">
+      <Hero bgImg={bgImg} title={"Contact Us"} />
+      <div className="border-t border-[#e8d8bb]/30 border-b border-[#e8d8bb]/30 py-8 sm:py-12 px-4 sm:px-6">
         <div
           id="contact"
-          className="flex text-white justify-between items-center gap-3 px-10 py-6 bg-[#303030]  rounded-xl shadow-lg shadow-[#e8d8bb] "
+          className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6 sm:px-10 py-8 sm:py-12 bg-[#303030] rounded-2xl shadow-xl shadow-[#ddb66a]/10 border border-[#ddb66a]/30 text-white"
         >
-          {/* <Wrapper> */}
-          <div className="flex flex-col justify-center items-center w-[250px]  ">
-            <MdLocationOn className="text-[#ddb66a]" size={"50px"} />
-            <h2 className="text-[#ddb66a] text-2xl font-serif font-semibold pt-4 pb-2">
+          <div className="flex flex-col justify-start items-center text-center w-full p-4 hover:scale-105 transition-all">
+            <MdLocationOn className="text-[#ddb66a] mb-2" size={"46px"} />
+            <h2 className="text-[#ddb66a] text-xl sm:text-2xl font-serif font-semibold pb-2">
               Address
             </h2>
-            <p className="text-[#e8d8bb]">
-              shop no.6 and 7,gulistan complex,naya nagar,mira road-(e)
-              pin-401107
+            <p className="text-[#e8d8bb] text-sm sm:text-base leading-relaxed">
+              Shop No. 6 & 7, Gulistan Complex, Naya Nagar, Mira Road (E),
+              PIN - 401107
             </p>
           </div>
-          <div className="flex flex-col justify-center items-center w-[250px]">
-            <IoIosMailOpen className="text-[#ddb66a]" size={"50px"} />
-            <h2 className="text-[#ddb66a] text-2xl font-serif font-semibold pt-4 pb-2">
+
+          <div className="flex flex-col justify-start items-center text-center w-full p-4 hover:scale-105 transition-all border-y md:border-y-0 md:border-x border-[#ddb66a]/20">
+            <IoIosMailOpen className="text-[#ddb66a] mb-2" size={"46px"} />
+            <h2 className="text-[#ddb66a] text-xl sm:text-2xl font-serif font-semibold pb-2">
               Email Address
             </h2>
-            <p className="text-[#e8d8bb]">gulamkhan512@gmail.com</p>
+            <a
+              href="mailto:gulamkhan512@gmail.com"
+              className="text-[#e8d8bb] hover:text-[#ddb66a] text-sm sm:text-base transition-colors break-all"
+            >
+              gulamkhan512@gmail.com
+            </a>
           </div>
-          <div className="flex flex-col justify-center items-center w-[250px]">
-            <FaMobileRetro className="text-[#ddb66a]" size={"50px"} />
-            <h2 className="text-[#ddb66a] text-2xl font-serif font-semibold pt-4 pb-2">
+
+          <div className="flex flex-col justify-start items-center text-center w-full p-4 hover:scale-105 transition-all">
+            <FaMobileRetro className="text-[#ddb66a] mb-2" size={"46px"} />
+            <h2 className="text-[#ddb66a] text-xl sm:text-2xl font-serif font-semibold pb-2">
               Contact Info
             </h2>
-            <p className="text-[#e8d8bb] ">+917977199070</p>
+            <a
+              href="tel:+917977199070"
+              className="text-[#e8d8bb] hover:text-[#ddb66a] text-sm sm:text-base transition-colors"
+            >
+              +91 7977199070
+            </a>
           </div>
-          {/* </Wrapper> */}
         </div>
       </div>
     </div>

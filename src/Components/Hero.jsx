@@ -23,35 +23,20 @@ function Hero({ bgImg, title }) {
   ];
   return (
     <div
-      className="hero flex flex-col justify-center items-center"
+      className="hero relative flex flex-col justify-center items-center min-h-[420px] sm:min-h-[480px] md:min-h-[560px] w-full pt-16 px-4 bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{
-        background: `url(${bgImg})`,
-        width: "100%",
-        height: "560px",
-
-        opacity: 0.85,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65)), url(${bgImg})`,
       }}
     >
-      <Wrapper>
+      <div className="flex flex-col items-center justify-center w-full max-w-4xl text-center">
         {location.pathname === "/" && <TypewriterEffectSmooth words={words} />}
-      </Wrapper>
-      {location.pathname === "/contact" ? (
-        ""
-      ) : (
-        <h2 className=" animate__animated animate__pulse animate__infinite items-center  text-3xl font-semibold  text-[#ddb66a]">
-          Welcome to {title}
-        </h2>
-      )}
-      {/* <h2 className=" animate__animated animate__pulse animate__infinite items-center  text-3xl font-semibold  text-[#ddb66a]">
-        Welcome to {title}
-      </h2> */}
+
+        {location.pathname !== "/contact" && title && (
+          <h2 className="animate__animated animate__pulse animate__infinite text-2xl sm:text-3xl md:text-4xl font-bold text-[#ddb66a] tracking-wide mt-2 px-2 capitalize">
+            Welcome to {title}
+          </h2>
+        )}
+      </div>
     </div>
   );
 }
